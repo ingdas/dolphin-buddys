@@ -48,11 +48,24 @@
         
       
         
-        <li class="nav-item">
-          <a class="nav-link" href="/dolphin-buddys/about/">
-            <i class='fa fa-user'></i></i>
-            <span>Over Ons</span>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown">
+            <i class='fa fa-user'></i></i> <span>Over Ons</span>
+            <span class="caret"></span>
           </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item" href="/dolphin-buddys/about/#centrum">
+                <i class='now-ui-icons design_app'></i>
+                <span>Het Duikcentrum</span>
+              </a>
+            
+            <a class="dropdown-item" href="/dolphin-buddys/about/#team">
+                <i class='now-ui-icons design_app'></i>
+                <span>Ons Team</span>
+              </a>
+            
+          </div>
         </li>
         
       
@@ -145,7 +158,7 @@
   <div class="content-center">
     <h1 class="title">Over Ons</h1>
     <div class="text-center">
-      
+       <div id="centrum"></div> 
     </div>
   </div>
 </div>
@@ -169,36 +182,33 @@
                 <div class="section-story-overview">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="image-container image-left" style="background-image: url('../img/login.jpg')">
+                            <div class="image-container image-left" style="background-image: url('https://loremflickr.com/640/335/dolphin')">
                                 <!-- First image on the left side -->
-                                <p class="blockquote blockquote-primary">"Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctichas increased very slightly"
+                                <p class="blockquote blockquote-primary">"Bij Dolphin Buddys voel ik mij altijd dolfijn"
                                     <br>
                                     <br>
-                                    <small>-NOAA</small>
+                                    <small>-Willy de orka</small>
                                 </p>
                             </div>
                             <!-- Second image on the left side of the article -->
-                            <div class="image-container" style="background-image: url('../img/bg3.jpg')"></div>
+                            <div class="image-container" style="background-image: url('https://loremflickr.com/745/335/dolphin')"></div>
                         </div>
                         <div class="col-md-5">
                             <!-- First image on the right side, above the article -->
-                            <div class="image-container image-right" style="background-image: url('../img/bg1.jpg')"></div>
-                            <h3>So what does the new record for the lowest level of winter ice actually mean</h3>
-                            <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the ice.
-                            </p>
-                            <p>
-                                For a start, it does not automatically follow that a record amount of ice will melt this summer. More important for determining the size of the annual thaw is the state of the weather as the midnight sun approaches and temperatures rise. But over the more than 30 years of satellite records, scientists have observed a clear pattern of decline, decade-by-decade.
-                            </p>
-                            <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the ice.
+                            <div class="image-container image-right" style="background-image: url('https://loremflickr.com/545/335/dolphin')"></div>
+                            <h3>Het begin van Dolphin Buddys </h3>
+                            <p>Duikcentrum Dolphin Buddys is een duikcentrum in Heverlee (Leuven, België) ontstaan vanuit duikclub Dolphin Buddys. De duikclub ontstond in 2003 uit een klein vriendengroepje dat hun eerste duikstappen had gezet bij de Giovanni’s Dolphin Divers. De duikclub groeide gestaag, en zit nu aan zo’n 70 leden: groot genoeg om goed te functioneren, klein genoeg om elkaar allemaal te kennen. Sinds kort zijn er 3 instructeurs in de club: Walter, Louise & Lore, die elk heel gepassioneerd zijn door hun sport. Dat bracht hen ertoe om de koppen bij elkaar te steken en de beslissing te nemen om hun hobby wat professioneler aan te pakken: Duikcentrum Dolphin Buddys werd een feit!
+                            <p>Duikcentrum Dolphin Buddys is een duikcentrum in Heverlee (Leuven, België) ontstaan vanuit duikclub Dolphin Buddys. De duikclub ontstond in 2003 uit een klein vriendengroepje dat hun eerste duikstappen had gezet bij de Giovanni’s Dolphin Divers. De duikclub groeide gestaag, en zit nu aan zo’n 70 leden: groot genoeg om goed te functioneren, klein genoeg om elkaar allemaal te kennen. Sinds kort zijn er 3 instructeurs in de club: Walter, Louise & Lore, die elk heel gepassioneerd zijn door hun sport. Dat bracht hen ertoe om de koppen bij elkaar te steken en de beslissing te nemen om hun hobby wat professioneler aan te pakken: Duikcentrum Dolphin Buddys werd een feit!</p>
+                            <p>PS: Ongerust over de schrijffout in onze naam? Naast correctheid houden wij nu eenmaal ook van dingen die mooi ogen, en dat was hier even prioritair 😉”</p>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section section-team text-center">
+        <div  id="team" class="section section-team text-center">
             <div class="container">
-                <h2 class="title">Here is our team</h2>
+                <h2 class="title">Ons Team</h2>
                 <div class="team">
                     <div class="row">
                         <div class="col-md-4">
@@ -233,31 +243,6 @@
                 </div>
             </div>
         </div>
-        <div class="section section-contact-us text-center">
-            <div class="container">
-                <h2 class="title">Want to work with us?</h2>
-                <p class="description">Your project is very important to us.</p>
-                <div class="row">
-                    <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
-                        <div class="input-group input-lg">
-                            <span class="input-group-addon">
-                                <i class="now-ui-icons users_circle-08"></i>
-                            </span>
-                            <input type="text" class="form-control" placeholder="First Name...">
-                        </div>
-                        <div class="input-group input-lg">
-                            <span class="input-group-addon">
-                                <i class="now-ui-icons ui-1_email-85"></i>
-                            </span>
-                            <input type="text" class="form-control" placeholder="Email...">
-                        </div>
-                        <div class="textarea-container">
-                            <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Type a message..."></textarea>
-                        </div>
-                        <div class="send-button">
-                            <a href="#pablo" class="btn btn-primary btn-round btn-block btn-lg">Send Message</a>
-                        </div>
-                    </div>
   </div>   
 </div>
 

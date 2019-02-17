@@ -11,21 +11,15 @@
     
     
     <item>
-      <title></title>
-      <link>dolphin-buddys/login/</link>
+      <title>Contact</title>
+      <link>dolphin-buddys/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>dolphin-buddys/login/</guid>
-      <description>          Get Started   Create Account    Need Help?     </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>dolphin-buddys/profile/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>dolphin-buddys/profile/</guid>
-      <description> Follow      About me An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range. My Portfolio                             </description>
+      <guid>dolphin-buddys/contact/</guid>
+      <description>  pureblack.de .mapouter { text-align: right; height: 300px; width: 300px; } .gmap_canvas { overflow: hidden; background: none !important; height: 300px; width: 300px; }    Duikcentrum Dolphin Buddys vzw Leeuwerikenstraat 62, 3001 Heverlee
+info@dolphinbuddys.be 0477/123.456 Ond. nr. 0717.542.454
+Bankrek. BE36 3631 8284 9181
+    </description>
     </item>
     
     <item>
@@ -34,7 +28,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>dolphin-buddys/about/</guid>
-      <description>Het Duikcentrum According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDC lead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice extent in the Pacific and a late drop in ice extent in the Barents Sea.    &#34;Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctichas increased very slightly&#34;</description>
+      <description>Het Duikcentrum According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDC lead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice extent in the Pacific and a late drop in ice extent in the Barents Sea.    &#34;Bij Dolphin Buddys voel ik mij altijd dolfijn&#34; -Willy de orka     Het begin van Dolphin Buddys  Duikcentrum Dolphin Buddys is een duikcentrum in Heverlee (Leuven, België) ontstaan vanuit duikclub Dolphin Buddys.</description>
     </item>
     
   </channel>
