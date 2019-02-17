@@ -17,78 +17,61 @@ publishDir = "./docs"
     pre = "<i class='fa fa-home'></i>"
     weight = 1
 [[menu.main]]
-    name = "Landing"
-    url = "/landing/"
-    pre = "<i class='now-ui-icons business_bank'></i>"
-    weight = 1
-[[menu.main]]
-    name = "Profile"
-    url = "/profile/"
-    pre = "<i class='now-ui-icons users_single-02'></i>"
+    name = "Over Ons"
+    url = "/about/"
+    pre = "<i class='fa fa-user'></i></i>"
     weight = 2
-[[menu.main]]
-    name = "Signup"
-    pre = "<i class='now-ui-icons clothes_tie-bow'></i>"
-    url = "/login/"
-    weight = 3
-[[menu.main]]
-    name = "Dropdown"
-    pre = "<i class='now-ui-icons ui-1_settings-gear-63'></i>"
-    url = "#"
-    weight = 4
-    identifier = "dropdown"
-[[menu.main]]
-    name = "Template"
-    pre = "<i class='now-ui-icons files_paper'></i>"
-    url = "/template/"
-    weight = 1
-    parent = "dropdown"
-[[menu.main]]
-    name = "Posts"
-    pre = "<i class='now-ui-icons ui-1_calendar-60'></i>"
-    url = "/post/"
-    weight = 2
-    parent = "dropdown"
-[[menu.main]]
-    name = "Tags"
-    pre = "<i class='now-ui-icons shopping_tag-content'></i>"
-    url = "/tags/"
-    weight = 2
-    parent = "dropdown"
-
 [[menu.main]]
     name = "Opleidingen"
     url = "/opleidingen/"
     pre = "<i class='now-ui-icons design_app'></i>"
-    weight = 100
-
+    weight = 3
 [[menu.main]]
     name = "Ervaringen"
     url = "/ervaringen/"
     pre = "<i class='now-ui-icons design_app'></i>"
-    weight = 100
+    weight = 4
+[[menu.main]]
+    name = "Materiaal"
+    url = "/materiaal/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    weight = 5
+[[menu.main]]
+    name = "Meer"
+    identifier="meer"
+    weight = 7
+[[menu.main]]
+    name = "Initiaties"
+    url = "/initiaties/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    parent = "meer"
+[[menu.main]]
+    name = "Milieu"
+    url = "/milieu/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    parent = "meer"
+[[menu.main]]
+    name = "Veiligheid"
+    url = "/veiligheid/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    parent = "meer"
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    weight = 9
+
+
 [[menu.main]]
     name = ""
     url = "https://www.facebook.com/dolphinbuddys/"
+    pre = '<i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="bottom" data-content="Like ons op Facebook"></i>'
+    weight = 10
+
+[[menu.footer]]
+    identifier = "facebook"
     pre = "<i class='fa fa-facebook-square'></i>"
-
-[[menu.footer]]
-    identifier = "twitter"
-    pre = "<i class='fa fa-twitter'></i>"
-    url = "https://twitter.com/cboettig"
-    weight = 1
-[[menu.footer]]
-    identifier = "github"
-    pre = "<i class='fa fa-github'></i>"
-    url = "https://github.com/cboettig"
-    weight = 2
-[[menu.footer]]
-    identifier = "copyright"
-    name = "MIT"
-    pre = "<i class='fa fa-balance-scale'></i>"
-    url = "https://spdx.org/licenses/MIT"
-    weight = 3
-
+    url = "https://www.facebook.com/dolphinbuddys/"
 
 [params]
     background = "/img/bg11.jpg"
