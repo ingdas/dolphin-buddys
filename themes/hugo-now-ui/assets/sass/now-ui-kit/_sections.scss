@@ -90,8 +90,8 @@
         background-color: rgba(0,0,0,.5);
     }
 
-    &[filter-color="orange"]{
-        @include linear-gradient(rgba($black-color,.20), rgba(224, 23, 3, 0.6));
+    &[filter-color="blue"]{
+        @include linear-gradient(rgba($black-color,.20), rgba(63, 63, 191, 0.6));
     }
 
     .container{
@@ -212,7 +212,7 @@
          top: 36%;
          left: 44%;
         font-size: 65px;
-        color: #f96332;
+        color: #3F3FBF;
         padding: 1px;
     }
 

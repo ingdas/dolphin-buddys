@@ -1,20 +1,20 @@
 theme = "hugo-now-ui"
-baseurl = "hugo-now-ui"
+baseurl = ""
 languageCode = "en-us"
 title = "Dolphin Buddys"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 #enableGitInfo = true
-publishDir = "../docs"
+publishDir = "./docs"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Components"
-    url = "/components/"
-    pre = "<i class='now-ui-icons design_app'></i>"
+    name = "Intro"
+    url = "/"
+    pre = "<i class='fa fa-home'></i>"
     weight = 1
 [[menu.main]]
     name = "Landing"
@@ -54,8 +54,24 @@ publishDir = "../docs"
     pre = "<i class='now-ui-icons shopping_tag-content'></i>"
     url = "/tags/"
     weight = 2
-    parent = "dropdown"    
-    
+    parent = "dropdown"
+
+[[menu.main]]
+    name = "Opleidingen"
+    url = "/opleidingen/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    weight = 100
+
+[[menu.main]]
+    name = "Ervaringen"
+    url = "/ervaringen/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    weight = 100
+[[menu.main]]
+    name = ""
+    url = "https://www.facebook.com/dolphinbuddys/"
+    pre = "<i class='fa fa-facebook-square'></i>"
+
 [[menu.footer]]
     identifier = "twitter"
     pre = "<i class='fa fa-twitter'></i>"
@@ -80,7 +96,7 @@ publishDir = "../docs"
     custom_css = ["css/highlight.min.css"]
     custom_js = []
     date_format = "Mon, Jan 2, 2006"
-    description = "A website built through Hugo and blogdown."
+    description = "Duikcentrum Dolphin Buddys"
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.10.0"
