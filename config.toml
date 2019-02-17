@@ -20,7 +20,23 @@ publishDir = "./docs"
     name = "Over Ons"
     url = "/about/"
     pre = "<i class='fa fa-user'></i></i>"
+    identifier="about"
     weight = 2
+[[menu.main]]
+    name = "Het Duikcentrum"
+    url = "/about/#centrum"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    parent = "about"
+[[menu.main]]
+    name = "Ons Team"
+    url = "/about/#team"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    parent = "about"
+[[menu.main]]
+    name = "Milieu"
+    url = "/milieu/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    parent = "meer"
 [[menu.main]]
     name = "Opleidingen"
     url = "/opleidingen/"
