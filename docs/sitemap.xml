@@ -3,33 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/login/</loc>
+    <loc>dolphin-buddys/login/</loc>
   </url>
   
   <url>
-    <loc>/profile/</loc>
+    <loc>dolphin-buddys/profile/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>dolphin-buddys/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>dolphin-buddys/</loc>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>dolphin-buddys/about/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>dolphin-buddys/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/template/</loc>
+    <loc>dolphin-buddys/template/</loc>
   </url>
   
 </urlset>
