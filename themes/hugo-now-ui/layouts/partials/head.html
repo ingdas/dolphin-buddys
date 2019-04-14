@@ -13,8 +13,11 @@
     
     <link href="{{ "css/bootstrap.min.css" | relURL }}" rel="stylesheet" />
     <link href="{{ $style.Permalink }}" rel="stylesheet">
-    <link href="{{ "css/demo.css" | relURL }}" rel="stylesheet" />
-    
+
+    {{ $styles := resources.Get "sass/main.scss" | toCSS | postCSS | minify | fingerprint }}
+
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+
   {{ range .Site.Params.custom_css -}}
     <link rel="stylesheet" href="{{ . | absURL }}">
   {{- end }}

@@ -738,7 +738,7 @@
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 50%;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   border: none;
   position: relative;
@@ -2179,7 +2179,7 @@ p {
 .card-description,
 .footer-big p {
   color: #9A9A9A;
-  font-weight: 300; }
+  font-weight: 400; }
 
 .category {
   text-transform: uppercase;

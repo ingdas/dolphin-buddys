@@ -11,70 +11,55 @@ publishDir = "./docs"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "Intro"
-    url = "/"
-    pre = "<i class='fa fa-home'></i>"
-    weight = 1
-[[menu.main]]
-    name = "Over Ons"
-    url = "/about/"
-    pre = "<i class='fa fa-user'></i></i>"
-    identifier="about"
-    weight = 2
+
 [[menu.main]]
     name = "Het Duikcentrum"
-    url = "/about/#centrum"
-    pre = "<i class='now-ui-icons design_app'></i>"
-    parent = "about"
+    url = "/overons/#centrum"
+    parent = "overons"
 [[menu.main]]
     name = "Ons Team"
-    url = "/about/#team"
-    pre = "<i class='now-ui-icons design_app'></i>"
-    parent = "about"
-[[menu.main]]
-    name = "Milieu"
-    url = "/milieu/"
-    pre = "<i class='now-ui-icons design_app'></i>"
-    parent = "meer"
+    url = "/overons/#team"
+    parent = "overons"
+
 [[menu.main]]
     name = "Opleidingen"
     url = "/opleidingen/"
-    pre = "<i class='now-ui-icons design_app'></i>"
-    weight = 3
+    
+    weight = 2
 [[menu.main]]
     name = "Ervaringen"
     url = "/ervaringen/"
-    pre = "<i class='now-ui-icons design_app'></i>"
-    weight = 4
+    
+    weight = 3
 [[menu.main]]
     name = "Materiaal"
     url = "/materiaal/"
-    pre = "<i class='now-ui-icons design_app'></i>"
-    weight = 5
-[[menu.main]]
-    name = "Meer"
-    identifier="meer"
-    weight = 7
-[[menu.main]]
-    name = "Initiaties"
-    url = "/initiaties/"
-    pre = "<i class='now-ui-icons design_app'></i>"
-    parent = "meer"
+    weight = 4
+
+#[[menu.main]]
+#    name = "Initiaties"
+#    url = "/initiaties/"
+#    weight = 5
+
 [[menu.main]]
     name = "Milieu"
     url = "/milieu/"
-    pre = "<i class='now-ui-icons design_app'></i>"
-    parent = "meer"
+    weight = 6
+
+#[[menu.main]]
+#    name = "Veiligheid"
+#    url = "/veiligheid/"
+#    weight = 7
+
 [[menu.main]]
-    name = "Veiligheid"
-    url = "/veiligheid/"
-    pre = "<i class='now-ui-icons design_app'></i>"
-    parent = "meer"
+    name = "Over Ons"
+    url = "/overons/"
+    identifier="overons"
+    weight = 8
+
 [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    pre = "<i class='now-ui-icons design_app'></i>"
     weight = 9
 
 
