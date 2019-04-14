@@ -11,26 +11,51 @@ publishDir = "./docs"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
+[[menu.main]]
+    name = "intro"
+    url = "/"
+    weight = 1
 
 [[menu.main]]
-    name = "Het Duikcentrum"
-    url = "/overons/#centrum"
-    parent = "overons"
+    name = "Duikclub"
+    url = "/ervaringen/#duikclub"
+    parent = "Ervaringen"
+    weight = 1
+
 [[menu.main]]
-    name = "Ons Team"
-    url = "/overons/#team"
-    parent = "overons"
+    name = "Jeugdwerking"
+    url = "/ervaringen/#jeugdwerking"
+    parent = "Ervaringen"
+    weight = 2
+
+[[menu.main]]
+    name = "Duiken met een berperking"
+    url = "/ervaringen/#beperking"
+    parent = "Ervaringen"
+    weight = 3
+
+[[menu.main]]
+    name = "Activiteiten"
+    url = "/ervaringen/#activiteiten"
+    parent = "Ervaringen"
+    weight = 4
+
+[[menu.main]]
+    name = "Noordzeeduiken"
+    url = "/ervaringen/#noordzeeduiken"
+    parent = "Ervaringen"
+    weight = 5
 
 [[menu.main]]
     name = "Opleidingen"
     url = "/opleidingen/"
-    
     weight = 2
+
 [[menu.main]]
     name = "Ervaringen"
     url = "/ervaringen/"
-    
     weight = 3
+
 [[menu.main]]
     name = "Materiaal"
     url = "/materiaal/"

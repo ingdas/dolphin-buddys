@@ -8,3 +8,38 @@
     margin-bottom: 30px;
   }
 }
+
+.darkerBack {
+  background-color: rgba(0,0,0,0.6);
+}
+
+.cursusGrid {
+
+
+  .row {
+    margin-bottom: 20px;
+  }
+
+}
+
+.linksA {
+  float: left;
+}
+
+.rechtsA {
+  float: right;
+}
+
+
+.introText {
+  background-color: rgba(0,0,0,0.7);
+  text-align: left;
+  padding: 10px;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
+}
