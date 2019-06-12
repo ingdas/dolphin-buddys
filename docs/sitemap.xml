@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>dolphin-buddys/testfb/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>dolphin-buddys/categories/</loc>
     <priority>0</priority>
   </url>
