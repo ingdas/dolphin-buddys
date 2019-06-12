@@ -3,49 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>dolphin-buddys/categories/</loc>
+    <loc>/dolphin-buddys/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>dolphin-buddys/contact/</loc>
+    <loc>/dolphin-buddys/contact/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/ervaringen/</loc>
+    <loc>/dolphin-buddys/ervaringen/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/initiaties/</loc>
+    <loc>/dolphin-buddys/initiaties/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/</loc>
+    <loc>/dolphin-buddys/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/materiaal/</loc>
+    <loc>/dolphin-buddys/materiaal/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/milieu/</loc>
+    <loc>/dolphin-buddys/milieu/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/opleidingen/</loc>
+    <loc>/dolphin-buddys/opleidingen/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/overons/</loc>
+    <loc>/dolphin-buddys/overons/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/tags/</loc>
+    <loc>/dolphin-buddys/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>dolphin-buddys/veiligheid/</loc>
+    <loc>/dolphin-buddys/veiligheid/</loc>
   </url>
   
 </urlset>
