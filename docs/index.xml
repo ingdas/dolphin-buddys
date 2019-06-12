@@ -11,6 +11,15 @@
     
     
     <item>
+      <title></title>
+      <link>dolphin-buddys/testfb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>dolphin-buddys/testfb/</guid>
+      <description> Title   hello world   window.fbAsyncInit = function() { FB.init({ xfbml : true, version : &#39;v3.3&#39; }); }; (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = &#39;https://connect.facebook.net/nl_NL/sdk/xfbml.customerchat.js&#39;; fjs.parentNode.insertBefore(js, fjs); }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));   </description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>dolphin-buddys/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -28,7 +37,16 @@ Bankrek. BE36 3631 8284 9181
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>dolphin-buddys/ervaringen/</guid>
-      <description>Duikclub Eenmaal je een duikbrevet hebt, of zelfs voordat je aan de opleiding begint, is het belangrijk om ervaring op te doen. Dat kan in onze duikclub. Iedereen is er welkom: jong of oud, duikbrevet of (nog) niet. De club staat bij de leden gekend als een club met een familiaal gevoel, waar gezelligheid troef is. Wil je als buddys op elkaar kunnen rekenen, dan is het immers belangrijk dat je elkaar goed kent.</description>
+      <description>Duikclub Eenmaal je een duikbrevet hebt, of zelfs voordat je aan de opleiding begint, is het belangrijk om ervaring op te doen. Dat kan in onze duikclub. Iedereen is er welkom: jong of oud, duikbrevet of (nog) niet. De club staat bij de leden bekend als een leuke bende met een familiaal gevoel, waar gezelligheid troef is. Wil je als buddys op elkaar kunnen rekenen, dan is het immers belangrijk dat je elkaar goed kent.</description>
+    </item>
+    
+    <item>
+      <title>Initiaties</title>
+      <link>dolphin-buddys/initiaties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>dolphin-buddys/initiaties/</guid>
+      <description>Individueel Trydive Altijd al eens willen weten hoe het voelt om onder water te ademen? Dan is een duikinitatie iets voor jou! Tijdens een Trydive nemen we je mee in het zwembad met een heuse persluchtset en introduceren we je tot de basisvaardigheden. Je leert bijvoorbeeld wat je moet doen als er water in je bril komt en hoe je je automaat uit je mond haalt. Maar niet zonder eerst een korte, maar volledige briefing te krijgen over wat er wel en niet kan onder water.</description>
     </item>
     
     <item>
@@ -41,9 +59,7 @@ Bankrek. BE36 3631 8284 9181
 Let op! Wij vullen enkel flessen met een M25x2-aansluiting en een geldige keuring!
 Prijslijst:
 Openingsuren:
- Verhuur We hebben een grote selectie materiaal te huur. Je vindt bij ons pakken in verschillende maten en diktes, botjes, handschoenen, trimvesten, flessen… Passen kan na afspraak.
-Prijslijst:
-Een afspraak maken kan via walter@dolphinbuddys.com.</description>
+ Dinsdag: 15-17u Donderdag: 13-19u of na afspraak op info@dolphinbuddys.com    Verhuur We hebben een grote selectie materiaal te huur. Je vindt bij ons pakken in verschillende maten en diktes, botjes, handschoenen, trimvesten, flessen, automaten, computers… Het materiaal is recent en steeds goed onderhouden.</description>
     </item>
     
     <item>
@@ -52,8 +68,7 @@ Een afspraak maken kan via walter@dolphinbuddys.com.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>dolphin-buddys/milieu/</guid>
-      <description>Project AWARE Als duikers dragen wij verantwoordelijkheid over hoe we ons gedragen in de onderwaterwereld, waar we te gast zijn. We kunnen bovendien ook bijdragen aan de beeldvorming rond onze oceanen: duikers hebben namelijk een unieke inkijk in de wereld onder de waterspiegel. Daarom steunen we de werking en activiteiten van Project AWARE (https://www.projectaware.org/).
-Dive against debris Bij Dolphin Buddys is elke duik een ‘dive against debris’: elk stukje afval of plastic dat we tegenkomen, ruimen we op.</description>
+      <description>Project AWARE Als duikers dragen wij verantwoordelijkheid over hoe we ons gedragen in de onderwaterwereld, waar we te gast zijn. We kunnen bovendien ook bijdragen aan de beeldvorming rond onze oceanen: duikers hebben namelijk een unieke inkijk in de wereld onder de waterspiegel. Daarom steunen we de werking en activiteiten van Project AWARE. Bovendien bieden we ook vormingen en workshops aan rond dit thema. Dive against debris Bij Dolphin Buddys is elke duik een ‘dive against debris’: elk stukje afval of plastic dat we tegenkomen, ruimen we op.</description>
     </item>
     
     <item>
@@ -62,7 +77,7 @@ Dive against debris Bij Dolphin Buddys is elke duik een ‘dive against debris�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>dolphin-buddys/opleidingen/</guid>
-      <description> Niet verdrinken      Duiken       Springen      Droog Blijven       Varen      Zwemmen       </description>
+      <description> PADI Open Water Diver      PADI Advanced Open Water Diver       PADI Rescue Diver      PADI Specialty-opleidingen       PADI Scuba Review/ReActivate      PADI PRO-opleidingen       </description>
     </item>
     
     <item>
@@ -72,7 +87,16 @@ Dive against debris Bij Dolphin Buddys is elke duik een ‘dive against debris�
       
       <guid>dolphin-buddys/overons/</guid>
       <description>Ons Team Walter Etienne PADI IDC Staff Instructor #978244
-  Walter (°1964) duikt sinds 2001 toen z’n oudste zoon vanuit het niets de vraag stelde om te gaan duiken. Al snel was de passie erg groot, en zo werd Walter in 2009 instructeur. Hij stond in 2003 mee aan de wieg van duikclub Dolphin Buddys, en is ook nu nog één van de drie drijvende krachten achter het duikcentrum.</description>
+  Walter (°1964) duikt sinds 2001, toen z’n oudste zoon vanuit het niets de vraag stelde om te gaan duiken. Al snel was de passie erg groot, en zo werd Walter in 2009 instructeur. Hij stond in 2003 mee aan de wieg van duikclub Dolphin Buddys, en is ook nu nog één van de drie drijvende krachten achter het duikcentrum.</description>
+    </item>
+    
+    <item>
+      <title>Veiligheid</title>
+      <link>dolphin-buddys/veiligheid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>dolphin-buddys/veiligheid/</guid>
+      <description>EFR Naast duikopleidingen biedt ons duikcentrum ook de mogelijkheid om eerste hulp-opleidingen te volgen. We werken met de cursussen van de wereldwijd erkende organisatie Emergency First Response. Die zijn gericht op algemene eerste hulp bij ongevallen: reanimatie, wondverzorging en nog veel meer. Niet alleen nuttig voor de duikers onder ons, dus! Bovendien krijg je uitgebreid de mogelijkheid om te oefenen met professioneel materiaal zoals reanimatiepoppen en een trainings-AED. Tijdens levensechte scenario’s leren we je hoe je onder druk correct kunt reageren op allerlei situaties, van een hartstilstand tot een schaafwonde.</description>
     </item>
     
   </channel>

@@ -29,7 +29,7 @@ publishDir = "./docs"
     weight = 2
 
 [[menu.main]]
-    name = "Duiken met een berperking"
+    name = "Duiken met een beperking"
     url = "/ervaringen/#beperking"
     parent = "Ervaringen"
     weight = 3
@@ -61,20 +61,20 @@ publishDir = "./docs"
     url = "/materiaal/"
     weight = 4
 
-#[[menu.main]]
-#    name = "Initiaties"
-#    url = "/initiaties/"
-#    weight = 5
-
 [[menu.main]]
     name = "Milieu"
     url = "/milieu/"
+    weight = 5
+
+[[menu.main]]
+    name = "Initiaties"
+    url = "/initiaties/"
     weight = 6
 
-#[[menu.main]]
-#    name = "Veiligheid"
-#    url = "/veiligheid/"
-#    weight = 7
+[[menu.main]]
+    name = "Veiligheid"
+    url = "/veiligheid/"
+    weight = 7
 
 [[menu.main]]
     name = "Over Ons"
