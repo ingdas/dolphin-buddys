@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intro on Dolphin Buddys</title>
-    <link>/dolphin-buddys/</link>
+    <link>dolphin-buddys/</link>
     <description>Recent content in Intro on Dolphin Buddys</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/dolphin-buddys/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="dolphin-buddys/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Contact</title>
-      <link>/dolphin-buddys/contact/</link>
+      <link>dolphin-buddys/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/dolphin-buddys/contact/</guid>
+      <guid>dolphin-buddys/contact/</guid>
       <description>   Duikcentrum Dolphin Buddys vzw Leeuwerikenstraat 62, 3001 Heverlee
 info@dolphinbuddys.be 0477/123.456 Ond. nr. 0717.542.454
 Bankrek. BE36 3631 8284 9181
@@ -24,28 +24,28 @@ Bankrek. BE36 3631 8284 9181
     
     <item>
       <title>Ervaringen</title>
-      <link>/dolphin-buddys/ervaringen/</link>
+      <link>dolphin-buddys/ervaringen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/dolphin-buddys/ervaringen/</guid>
+      <guid>dolphin-buddys/ervaringen/</guid>
       <description>Duikclub Eenmaal je een duikbrevet hebt, of zelfs voordat je aan de opleiding begint, is het belangrijk om ervaring op te doen. Dat kan in onze duikclub. Iedereen is er welkom: jong of oud, duikbrevet of (nog) niet. De club staat bij de leden bekend als een leuke bende met een familiaal gevoel, waar gezelligheid troef is. Wil je als buddys op elkaar kunnen rekenen, dan is het immers belangrijk dat je elkaar goed kent.</description>
     </item>
     
     <item>
       <title>Initiaties</title>
-      <link>/dolphin-buddys/initiaties/</link>
+      <link>dolphin-buddys/initiaties/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/dolphin-buddys/initiaties/</guid>
+      <guid>dolphin-buddys/initiaties/</guid>
       <description>Individueel Trydive Altijd al eens willen weten hoe het voelt om onder water te ademen? Dan is een duikinitatie iets voor jou! Tijdens een Trydive nemen we je mee in het zwembad met een heuse persluchtset en introduceren we je tot de basisvaardigheden. Je leert bijvoorbeeld wat je moet doen als er water in je bril komt en hoe je je automaat uit je mond haalt. Maar niet zonder eerst een korte, maar volledige briefing te krijgen over wat er wel en niet kan onder water.</description>
     </item>
     
     <item>
       <title>Materiaal</title>
-      <link>/dolphin-buddys/materiaal/</link>
+      <link>dolphin-buddys/materiaal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/dolphin-buddys/materiaal/</guid>
+      <guid>dolphin-buddys/materiaal/</guid>
       <description>Vulstation In ons duikcentrum kan je perslucht vullen tot 300 bar. Binnenkort kan je er ook terecht voor nitrox.
 Let op! Wij vullen enkel flessen met een M25x2-aansluiting en een geldige keuring!
 Prijslijst:
@@ -55,19 +55,19 @@ Openingsuren:
     
     <item>
       <title>Milieu</title>
-      <link>/dolphin-buddys/milieu/</link>
+      <link>dolphin-buddys/milieu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/dolphin-buddys/milieu/</guid>
+      <guid>dolphin-buddys/milieu/</guid>
       <description>Project AWARE Als duikers dragen wij verantwoordelijkheid over hoe we ons gedragen in de onderwaterwereld, waar we te gast zijn. We kunnen bovendien ook bijdragen aan de beeldvorming rond onze oceanen: duikers hebben namelijk een unieke inkijk in de wereld onder de waterspiegel. Daarom steunen we de werking en activiteiten van Project AWARE. Bovendien bieden we ook vormingen en workshops aan rond dit thema. Dive against debris Bij Dolphin Buddys is elke duik een ‘dive against debris’: elk stukje afval of plastic dat we tegenkomen, ruimen we op.</description>
     </item>
     
     <item>
       <title>Opleidingen</title>
-      <link>/dolphin-buddys/opleidingen/</link>
+      <link>dolphin-buddys/opleidingen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/dolphin-buddys/opleidingen/</guid>
+      <guid>dolphin-buddys/opleidingen/</guid>
       <description>    PADI Open Water Diver
       PADI Advanced Open Water Diver
       PADI Rescue Diver
@@ -79,20 +79,20 @@ Openingsuren:
     
     <item>
       <title>Over Ons</title>
-      <link>/dolphin-buddys/overons/</link>
+      <link>dolphin-buddys/overons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/dolphin-buddys/overons/</guid>
+      <guid>dolphin-buddys/overons/</guid>
       <description>Ons Team Walter Etienne PADI IDC Staff Instructor #978244
   Walter (°1964) duikt sinds 2001, toen z’n oudste zoon vanuit het niets de vraag stelde om te gaan duiken. Al snel was de passie erg groot, en zo werd Walter in 2009 instructeur. Hij stond in 2003 mee aan de wieg van duikclub Dolphin Buddys, en is ook nu nog één van de drie drijvende krachten achter het duikcentrum.</description>
     </item>
     
     <item>
       <title>Veiligheid</title>
-      <link>/dolphin-buddys/veiligheid/</link>
+      <link>dolphin-buddys/veiligheid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/dolphin-buddys/veiligheid/</guid>
+      <guid>dolphin-buddys/veiligheid/</guid>
       <description>EFR Naast duikopleidingen biedt ons duikcentrum ook de mogelijkheid om eerste hulp-opleidingen te volgen. We werken met de cursussen van de wereldwijd erkende organisatie Emergency First Response. Die zijn gericht op algemene eerste hulp bij ongevallen: reanimatie, wondverzorging en nog veel meer. Niet alleen nuttig voor de duikers onder ons, dus! Bovendien krijg je uitgebreid de mogelijkheid om te oefenen met professioneel materiaal zoals reanimatiepoppen en een trainings-AED. Tijdens levensechte scenario’s leren we je hoe je onder druk correct kunt reageren op allerlei situaties, van een hartstilstand tot een schaafwonde.</description>
     </item>
     
