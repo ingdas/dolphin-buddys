@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>dolphin-buddys/ervaringen/activiteiten/</loc>
+  </url>
+  
+  <url>
     <loc>dolphin-buddys/categories/</loc>
     <priority>0</priority>
   </url>
@@ -12,7 +16,16 @@
   </url>
   
   <url>
+    <loc>dolphin-buddys/ervaringen/duikclub/</loc>
+  </url>
+  
+  <url>
+    <loc>dolphin-buddys/ervaringen/beperking/</loc>
+  </url>
+  
+  <url>
     <loc>dolphin-buddys/ervaringen/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -24,11 +37,19 @@
   </url>
   
   <url>
+    <loc>dolphin-buddys/ervaringen/jeugdwerking/</loc>
+  </url>
+  
+  <url>
     <loc>dolphin-buddys/materiaal/</loc>
   </url>
   
   <url>
     <loc>dolphin-buddys/milieu/</loc>
+  </url>
+  
+  <url>
+    <loc>dolphin-buddys/ervaringen/noordzeeduiken/</loc>
   </url>
   
   <url>

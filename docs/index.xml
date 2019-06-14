@@ -5,10 +5,25 @@
     <link>dolphin-buddys/</link>
     <description>Recent content in Intro on Dolphin Buddys</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>nl-BE</language>
     
 	<atom:link href="dolphin-buddys/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Activiteiten</title>
+      <link>dolphin-buddys/ervaringen/activiteiten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>dolphin-buddys/ervaringen/activiteiten/</guid>
+      <description>Bergse diepsluis 2016
+      Bezoek aan k n r m station neeltje jans 2018
+      Blausteinsee 2016
+      Boschmolenplas 2018
+      Carrière les trois fontaines 2019
+      Check je hart lezing voor duikers 2019
+      Clubavond 2019</description>
+    </item>
     
     <item>
       <title>Contact</title>
@@ -16,19 +31,25 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>dolphin-buddys/contact/</guid>
-      <description>   Duikcentrum Dolphin Buddys vzw Leeuwerikenstraat 62, 3001 Heverlee
-info@dolphinbuddys.be 0477/123.456 Ond. nr. 0717.542.454
-Bankrek. BE36 3631 8284 9181
-  Bekijk Kaart  Duikcentrum Dolphin Buddys   </description>
+      <description>.cform ul li{ position: relative; padding:15px 20px 15px 75px; font-size: 18px; font-weight: 600; border-radius: 5px; list-style-type: none; } .cform ul li:last-child{ margin-bottom: 0px; } .cform ul li i{ position: absolute; -webkit-transform: translateY(-50%); transform: translateY(-50%); top: 50%; left: 30px; font-size: 35px; color: #fb9902; } .cform ul li p{ font-size: 14px; font-weight: 400; } .cform ul li p span{ display: block; }     Telefoon  0477/123.456    E-mail  info@dolphinbuddys.</description>
     </item>
     
     <item>
-      <title>Ervaringen</title>
-      <link>dolphin-buddys/ervaringen/</link>
+      <title>Duikclub</title>
+      <link>dolphin-buddys/ervaringen/duikclub/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>dolphin-buddys/ervaringen/</guid>
-      <description>Duikclub Eenmaal je een duikbrevet hebt, of zelfs voordat je aan de opleiding begint, is het belangrijk om ervaring op te doen. Dat kan in onze duikclub. Iedereen is er welkom: jong of oud, duikbrevet of (nog) niet. De club staat bij de leden bekend als een leuke bende met een familiaal gevoel, waar gezelligheid troef is. Wil je als buddys op elkaar kunnen rekenen, dan is het immers belangrijk dat je elkaar goed kent.</description>
+      <guid>dolphin-buddys/ervaringen/duikclub/</guid>
+      <description>Eenmaal je een duikbrevet hebt, of zelfs voordat je aan de opleiding begint, is het belangrijk om ervaring op te doen. Dat kan in onze duikclub. Iedereen is er welkom: jong of oud, duikbrevet of (nog) niet. De club staat bij de leden bekend als een leuke bende met een familiaal gevoel, waar gezelligheid troef is. Wil je als buddys op elkaar kunnen rekenen, dan is het immers belangrijk dat je elkaar goed kent.</description>
+    </item>
+    
+    <item>
+      <title>Duiken met een beperking</title>
+      <link>dolphin-buddys/ervaringen/beperking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>dolphin-buddys/ervaringen/beperking/</guid>
+      <description>Wij vinden het erg belangrijk dat iedereen die dat wil een plaats kan krijgen in de duikwereld, en we proberen van ons duikcentrum dan ook een toegankelijke en inclusieve plek te maken. Daarom doen we ons best om aan jouw individuele situatie tegemoet te komen. Toch willen we onszelf niet overschatten: duiken is complex, en dat zijn veel beperkingen ook. We leggen graag jouw inzichten en specifieke vragen samen met onze kennis van het duiken, ervaring met lesgeven en achtergrond in het buitengewoon onderwijs en de kinesitherapie.</description>
     </item>
     
     <item>
@@ -38,6 +59,15 @@ Bankrek. BE36 3631 8284 9181
       
       <guid>dolphin-buddys/initiaties/</guid>
       <description>Individueel      Trydive Altijd al eens willen weten hoe het voelt om onder water te ademen? Dan is een duikinitatie iets voor jou! Tijdens een Trydive nemen we je mee in het zwembad met een heuse persluchtset en introduceren we je tot de basisvaardigheden. Je leert bijvoorbeeld wat je moet doen als er water in je bril komt en hoe je je automaat uit je mond haalt.</description>
+    </item>
+    
+    <item>
+      <title>Jeugdwerking</title>
+      <link>dolphin-buddys/ervaringen/jeugdwerking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>dolphin-buddys/ervaringen/jeugdwerking/</guid>
+      <description>Jeugdwerking Duikers tussen 10 en 15 jaar kunnen terecht in de afzonderlijke jeugdafdeling van onze club. Dat is een vrolijke bende die elke zaterdag een eigen speelse snorkel- en conditietraining heeft. Daarin ligt de focus op het ontwikkelen van zwem- en snorkelvaardigheden met een vrolijke twist. Maar daarnaast vormt onze jeugd ook gewoon een gezellige bende tijdens jeugdweekends en -uitstappen. Een groep die een hoop plezier maakt, en met hun enthousiasme vaak zelfs hun eigen jeugdtrainers verbaast!</description>
     </item>
     
     <item>
@@ -60,6 +90,15 @@ Openingsuren:
       
       <guid>dolphin-buddys/milieu/</guid>
       <description>Project AWARE Als duikers dragen wij verantwoordelijkheid over hoe we ons gedragen in de onderwaterwereld, waar we te gast zijn. We kunnen bovendien ook bijdragen aan de beeldvorming rond onze oceanen: duikers hebben namelijk een unieke inkijk in de wereld onder de waterspiegel. Daarom steunen we de werking en activiteiten van Project AWARE. Bovendien bieden we ook vormingen en workshops aan rond dit thema.         Dive against debris      Bij Dolphin Buddys is elke duik een ‘dive against debris’: elk stukje afval of plastic dat we tegenkomen, ruimen we op.</description>
+    </item>
+    
+    <item>
+      <title>Noordzeeduiken</title>
+      <link>dolphin-buddys/ervaringen/noordzeeduiken/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>dolphin-buddys/ervaringen/noordzeeduiken/</guid>
+      <description>Eén van de mooiste duikplaatsen die de Lage Landen rijk zijn, is onze eigen Noordzee. Want onder het soms ruwe wateroppervlak bevindt zich een prachtige wereld van wrakken waarin alle soorten onderwaterleven vrij spel hebben. Elk jaar gaat een groepje Dolphin Buddys de Noordzee op: we maken enkele daguitstappen met een Noordzeecharter (naam vermelden?). Noordzeeduiken is één van de uitdagendste vormen van recreatief duiken. Er zijn heel wat factoren waar je rekening mee moet houden: stroming, wind, diepte… De Noordzee verkennen is dus niet vanzelfsprekend, maar de prachtige duiken die je er kan doen geven loon naar werken.</description>
     </item>
     
     <item>

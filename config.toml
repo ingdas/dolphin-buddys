@@ -1,11 +1,10 @@
 theme = "hugo-now-ui"
 baseurl = "dolphin-buddys/"
-languageCode = "en-us"
+languageCode = "nl-BE"
 title = "Dolphin Buddys"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
-#enableGitInfo = true
 publishDir = "./docs"
 
 [permalinks]
@@ -18,31 +17,31 @@ publishDir = "./docs"
 
 [[menu.main]]
     name = "Duikclub"
-    url = "/ervaringen/#duikclub"
+    url = "/ervaringen/duikclub"
     parent = "Ervaringen"
     weight = 1
 
 [[menu.main]]
     name = "Jeugdwerking"
-    url = "/ervaringen/#jeugdwerking"
+    url = "/ervaringen/jeugdwerking"
     parent = "Ervaringen"
     weight = 2
 
 [[menu.main]]
     name = "Duiken met een beperking"
-    url = "/ervaringen/#beperking"
+    url = "/ervaringen/beperking"
     parent = "Ervaringen"
     weight = 3
 
 [[menu.main]]
     name = "Activiteiten"
-    url = "/ervaringen/#activiteiten"
+    url = "/ervaringen/activiteiten"
     parent = "Ervaringen"
     weight = 4
 
 [[menu.main]]
     name = "Noordzeeduiken"
-    url = "/ervaringen/#noordzeeduiken"
+    url = "/ervaringen/noordzeeduiken"
     parent = "Ervaringen"
     weight = 5
 
@@ -97,7 +96,7 @@ publishDir = "./docs"
 [[menu.main]]
     name = ""
     url = "https://www.padi.com"
-    pre = '<img height=15 src="../img/padi.png"></i>'
+    pre = '<div class="padilogo"></div>'
     weight = 11
 
 [[menu.footer]]

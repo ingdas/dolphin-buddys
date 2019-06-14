@@ -2,28 +2,79 @@
 class: "contact"
 title: "Contact"
 ---
-
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
-
-
-<div class="card">
-    <div class="card-body">
-        <h4 class="card-title">Duikcentrum Dolphin Buddys vzw</h4>
-        <p class="card-text">Leeuwerikenstraat 62, 3001 Heverlee</p>
-        <p>info@dolphinbuddys.be </p>
-        <p>0477/123.456 </p>
-        <p>Ond. nr. 0717.542.454</p>
-        <p>Bankrek. BE36 3631 8284 9181</p>
-    </div>
-</div>
+<style>
+    .cform ul li{
+        position: relative;
+        padding:15px 20px 15px 75px;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 5px;
+        list-style-type: none;
+    }
+    .cform ul li:last-child{
+        margin-bottom: 0px;
+    }
+    .cform ul li i{
+        position: absolute;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        top: 50%;
+        left: 30px;
+        font-size: 35px;
+        color: #fb9902;
+    }
+    .cform ul li p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .cform ul li p span{
+        display: block;
+    }
+</style>
 
 <div class="row">
-    <div class="col-md-6">
-        <iframe frameborder="0" height="300px" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=4.700394272804261%2C50.859828956166666%2C4.703934788703919%2C50.86127480981552&amp;layer=mapnik&amp;marker=50.860551888595204%2C4.702164530754089" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=50.86055&amp;mlon=4.70216#map=19/50.86055/4.70216">Bekijk Kaart</a></small>
+
+    <div class="cform col-md-7">
+        <ul>
+            <li>
+                <i class="fa fa-phone"></i>
+                Telefoon
+                <p>
+                    0477/123.456
+                </p>
+            </li>
+            <li>
+                <i class="fa fa-envelope"></i>
+                E-mail
+                <p>
+                    info@dolphinbuddys.be
+                </p>
+            </li>
+            <li>
+                <i class="fa fa-location-arrow"></i>
+                Ter plaatse
+                <p>
+            <span>Duikcentrum Dolphin Buddys vzw<br>
+            Leeuwerikenstraat 62, 3001 Heverlee</span>
+                </p>
+            </li>
+            <li>
+                <i class="fa fa-facebook"></i>
+                Op Facebook
+                <p>
+            <a href="https://www.facebook.com/dolphinbuddys/">https://www.facebook.com/dolphinbuddys/</a>
+                </p>
+            </li>
+            <li>
+                <p>Ond. nr. 0717.542.454<br>
+                    Bankrek. BE36 3631 8284 9181</p>
+            </li>
+        </ul>
     </div>
-    <div class="col-md-6">
-        <div class="fb-page" data-href="https://www.facebook.com/dolphinbuddys/" data-tabs="messages, events, timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/dolphinbuddys/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dolphinbuddys/">Duikcentrum Dolphin Buddys</a></blockquote></div>
+    <div class="col-md-5">
+        <iframe frameborder="0" height="300px" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=4.700394272804261%2C50.859828956166666%2C4.703934788703919%2C50.86127480981552&amp;layer=mapnik&amp;marker=50.860551888595204%2C4.702164530754089"
+                style="border: 1px solid black"></iframe>
     </div>
 </div>
 
