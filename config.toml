@@ -94,15 +94,26 @@ publishDir = "./docs"
     weight = 10
 
 [[menu.main]]
+    name = "  "
+    url = "https://www.instagram.com/dolphin.buddys/"
+    pre = '<i class="fa fa-instagram" data-toggle="tooltip" data-placement="bottom" data-content="Volg ons op Instagram"></i>'
+    weight = 11
+
+[[menu.main]]
     name = ""
     url = "https://www.padi.com"
     pre = '<div class="padilogo"></div>'
-    weight = 11
+    weight = 12
 
 [[menu.footer]]
     identifier = "facebook"
     pre = "<i class='fa fa-facebook-square'></i>"
     url = "https://www.facebook.com/dolphinbuddys/"
+
+[[menu.footer]]
+    identifier = "instagram"
+    url = "https://www.instagram.com/dolphin.buddys/"
+    pre = '<i class="fa fa-instagram"></i>'
 
 [params]
     background = "/img/bg11.jpg"
