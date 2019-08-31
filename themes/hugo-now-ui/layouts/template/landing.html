@@ -2,11 +2,10 @@
 <html lang="en">
   {{partial "head" . }}
 <body class="profile-page sidebar-collapse">
+<div class="page-header-image" style="background-image: url('./img/header.jpg');">
+</div>
     {{ partial "nav" . }}
-    <div class="wrapper">
       {{ .Content }}
-      {{ partial "footer" . }}
-    </div>
 </body>
   {{partial "javascript" . }}
 </html>
