@@ -14,7 +14,6 @@
 
 .cursusGrid {
 
-
   .row {
     margin-bottom: 20px;
   }
@@ -40,4 +39,9 @@
   position: relative;
   top: -150px;
   visibility: hidden;
+}
+
+.navbar-brand:hover {
+  background-color: rgba(255,255,255,.2);
+  border-radius: .1875rem;
 }

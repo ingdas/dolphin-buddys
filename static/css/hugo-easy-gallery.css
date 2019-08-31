@@ -157,3 +157,7 @@ figcaption p {
     margin: auto; /* override style in theme */
 }
 
+.pswp__caption__center {
+    text-align: center;
+}
+
