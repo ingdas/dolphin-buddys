@@ -1,4 +1,4 @@
-html, body, .wrapper, .page-header {
+html, body, .wrapper {
   height: 100%;
 }
 
@@ -7,6 +7,21 @@ html, body, .wrapper, .page-header {
     .content-center {
       padding-top: 55px !important;
     }
+  }
+}
+
+@media (max-width: 425px) {
+  .opleidingen, .duikclub, .veiligheid, .overons {
+    .page-header {
+      min-height: 65vh;
+      max-height: 100%;
+    }
+  }
+}
+
+.jeugdwerking, .beperking, .activiteiten, .noordzeeduiken, .materiaal, .milieu, .initiaties, .contact {
+  .page-header {
+    height: 30vh
   }
 }
 
