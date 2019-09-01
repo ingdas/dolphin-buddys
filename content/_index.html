@@ -3,11 +3,17 @@ title: "Intro"
 type: template
 layout: landing
 ---
-
+<style>
+    @media (min-width: 768px) {
+        .d-md {
+            display: flex !important;
+        }
+    }
+</style>
 <div class="page-header clear-filter" filter-color="blue">
     <div class="container">
         <div class="row" style="padding-top: 5%">
-            <div class="col-md-2" style="display: flex; flex-direction: column-reverse">
+            <div class="col-md-2 d-none d-md" style="display: flex; flex-direction: column-reverse">
                 <a href="./initiaties/">
                     <button type="button" class="btn btn-primary"
                             style="font-variant-caps: all-small-caps;font-size: 1.25em;">Ontdek Duiken
@@ -17,7 +23,7 @@ layout: landing
             <div class="col-md-8">
                 <img class="n-logo" src="./img/buddy-logo-white.png" alt="" style="max-width:100%;height:auto;">
             </div>
-            <div class="col-md-2" style="display: flex; flex-direction: column-reverse">
+            <div class="col-md-2 d-none d-md" style="display: flex; flex-direction: column-reverse">
                 <a href="./opleidingen/">
                     <button type="button" class="btn btn-primary"
                             style="font-variant-caps: all-small-caps;font-size: 1.25em;">Leer Duiken
@@ -34,7 +40,8 @@ layout: landing
             <div class="col-md-12">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <p style="color: black; text-align: center">Duikcentrum Dolphin Buddys is een Leuvense duikschool,
+                        <p style="color: black; text-align: center">Duikcentrum Dolphin Buddys is een Leuvense
+                            duikschool,
                             duikclub en
                             duikwinkel. Wij geloven dat duiken een unieke beleving is voor iedereen. Daarom geven we
                             heel
