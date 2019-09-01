@@ -2,6 +2,14 @@ html, body, .wrapper, .page-header {
   height: 100%;
 }
 
+@media (max-width: 768px) {
+  .page-header {
+    .content-center {
+      padding-top: 55px !important;
+    }
+  }
+}
+
 .bioText {
   text-align: left;
 }
