@@ -29,13 +29,19 @@
             {{end}}
           </div>
         </li>
-        {{ else }}
+        {{ else if .URL}}
         <li class="nav-item">
           <a class="nav-link" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
             {{ .Pre }}
             <span>{{ .Name }}</span>
           </a>
         </li>
+        {{ else}}
+                  <li class="nav-item">
+                      <a class="nav-link" target="_blank" href="{{.Name}}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+                          {{ .Pre }}
+                      </a>
+                  </li>
         {{ end }}
       {{ end }}
                 </ul>
