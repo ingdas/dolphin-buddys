@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ervaringens on Dolphin Buddys</title>
-    <link>dolphin-buddys/ervaringen/</link>
+    <link>/ervaringen/</link>
     <description>Recent content in Ervaringens on Dolphin Buddys</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-BE</language>
     
-	<atom:link href="dolphin-buddys/ervaringen/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/ervaringen/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Activiteiten</title>
-      <link>dolphin-buddys/ervaringen/activiteiten/</link>
+      <link>/ervaringen/activiteiten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>dolphin-buddys/ervaringen/activiteiten/</guid>
+      <guid>/ervaringen/activiteiten/</guid>
       <description>2016 Bergse Diepsluis
       2016 Blausteinsee
       2016 Clubreis naar L&amp;#39;Estartit (Spanje)
@@ -28,37 +28,37 @@
     
     <item>
       <title>Duikclub</title>
-      <link>dolphin-buddys/ervaringen/duikclub/</link>
+      <link>/ervaringen/duikclub/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>dolphin-buddys/ervaringen/duikclub/</guid>
+      <guid>/ervaringen/duikclub/</guid>
       <description>Conditietrainingen      Tijdens het winterseizoen (september t/m mei) heeft de duikclub een wekelijkse zwembadtraining in Sportoase Leuven (zaterdag 15:00 – 17:00). Meestal is er een deel conditie- en zwemtraining, een deel apnea- en snorkeloefeningen en er is natuurlijk altijd tijd voor een spelletje om af te sluiten. Tijdens de zwembadtrainingen heb je niet veel materiaal nodig: een snorkel, een duikbril, zwembadvinnen met gesloten hiel en een loodgordel met 2kg lood volstaan.</description>
     </item>
     
     <item>
       <title>Duiken met een beperking</title>
-      <link>dolphin-buddys/ervaringen/beperking/</link>
+      <link>/ervaringen/beperking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>dolphin-buddys/ervaringen/beperking/</guid>
+      <guid>/ervaringen/beperking/</guid>
       <description>Wij vinden het erg belangrijk dat iedereen die dat wil een plaats kan krijgen in de duikwereld, en we proberen van ons duikcentrum dan ook een toegankelijke en inclusieve plek te maken. Daarom doen we ons best om aan jouw individuele situatie tegemoet te komen. Toch willen we onszelf niet overschatten: duiken is complex, en dat zijn veel beperkingen ook. We leggen graag jouw inzichten en specifieke vragen samen met onze kennis van het duiken, ervaring met lesgeven en achtergrond in het buitengewoon onderwijs en de kinesitherapie.</description>
     </item>
     
     <item>
       <title>Jeugdwerking</title>
-      <link>dolphin-buddys/ervaringen/jeugdwerking/</link>
+      <link>/ervaringen/jeugdwerking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>dolphin-buddys/ervaringen/jeugdwerking/</guid>
+      <guid>/ervaringen/jeugdwerking/</guid>
       <description>Duikers tussen 10 en 15 jaar kunnen terecht in de afzonderlijke jeugdafdeling van onze club. Dat is een vrolijke bende die elke zaterdag een eigen speelse snorkel- en conditietraining heeft. Daarin ligt de focus op het ontwikkelen van zwem- en snorkelvaardigheden met een vrolijke twist. Maar daarnaast vormt onze jeugd ook gewoon een gezellige bende tijdens jeugdweekends en &amp;#8209;uitstappen. Een groep die een hoop plezier maakt, en met hun enthousiasme vaak zelfs hun eigen jeugdtrainers verbaast!</description>
     </item>
     
     <item>
       <title>Noordzeeduiken</title>
-      <link>dolphin-buddys/ervaringen/noordzeeduiken/</link>
+      <link>/ervaringen/noordzeeduiken/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>dolphin-buddys/ervaringen/noordzeeduiken/</guid>
+      <guid>/ervaringen/noordzeeduiken/</guid>
       <description>Eén van de mooiste duikplaatsen die de Lage Landen rijk zijn, is onze eigen Noordzee. Want onder het soms ruwe wateroppervlak bevindt zich een prachtige wereld van wrakken waarin alle soorten onderwaterleven vrij spel hebben. Elk jaar gaat een groepje Dolphin Buddys de Noordzee op: we maken enkele daguitstappen met Noordzeecharter Dive Star vanuit Nieuwpoort. Noordzeeduiken is één van de uitdagendste vormen van recreatief duiken. Er zijn heel wat factoren waar je rekening mee moet houden: stroming, wind, diepte… De Noordzee verkennen is dus niet vanzelfsprekend, maar de prachtige duiken die je er kan doen geven loon naar werken.</description>
     </item>
     

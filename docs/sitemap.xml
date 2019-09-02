@@ -3,67 +3,79 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>dolphin-buddys/ervaringen/activiteiten/</loc>
+    <loc>/ervaringen/activiteiten/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/contact/</loc>
+    <loc>/contact/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/ervaringen/duikclub/</loc>
+    <loc>/ervaringen/duikclub/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/ervaringen/beperking/</loc>
+    <loc>/ervaringen/beperking/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/ervaringen/</loc>
+    <loc>/ervaringen/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/initiaties/</loc>
+    <loc>/initiaties/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/ervaringen/jeugdwerking/</loc>
+    <loc>/ervaringen/jeugdwerking/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/materiaal/</loc>
+    <loc>/materiaal/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/milieu/</loc>
+    <loc>/milieu/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/ervaringen/noordzeeduiken/</loc>
+    <loc>/ervaringen/noordzeeduiken/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/opleidingen/</loc>
+    <loc>/opleidingen/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/overons/</loc>
+    <loc>/opleiding/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/tags/</loc>
+    <loc>/overons/</loc>
   </url>
   
   <url>
-    <loc>dolphin-buddys/veiligheid/</loc>
+    <loc>/opleiding/pro/</loc>
+  </url>
+  
+  <url>
+    <loc>/opleiding/specialty/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/veiligheid/</loc>
   </url>
   
 </urlset>

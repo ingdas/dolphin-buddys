@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opleidings on Dolphin Buddys</title>
+    <link>/opleiding/</link>
+    <description>Recent content in Opleidings on Dolphin Buddys</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-BE</language>
+    
+	<atom:link href="/opleiding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PADI PRO-Opleidingen</title>
+      <link>/opleiding/pro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/opleiding/pro/</guid>
+      <description> &#34;  PADI PRO Divemaster
+   &#34;  PADI PRO Assistant Instructor
+    </description>
+    </item>
+    
+    <item>
+      <title>Specialty Opleidingen</title>
+      <link>/opleiding/specialty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/opleiding/specialty/</guid>
+      <description>&#34;  PADI Enriched Air Diver Specialty
+   &#34;  PADI Deep Diver Specialty
+   &#34;  PADI Dry Suit Diver Specialty
+   &#34;  PADI Equipment Specialist Specialty
+   &#34;  PADI Search and Recovery Diver Specialty
+   &#34;  PADI Wreck Diver Specialty
+   &#34;  PADI Self Reliant Diver Specialty
+   &#34;  PADI Peak Performancy Buoyancy Specialty</description>
+    </item>
+    
+  </channel>
+</rss>
