@@ -11,11 +11,6 @@ publishDir = "./docs"
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "intro"
-    url = "/"
-    weight = 1
-
-[[menu.main]]
     name = "Duikclub"
     url = "/ervaringen/duikclub"
     parent = "Ervaringen"

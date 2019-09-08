@@ -292,7 +292,7 @@
     }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1200px){
+@media screen and (min-width: 1005px) and (max-width: 1200px){
     .section-images{
         .hero-images-container-1{
             right: 9%;
@@ -304,6 +304,19 @@
             max-width: 216px;
         }
     }
+
+    .navbar-translate {
+        position:absolute;
+        margin-left: -60px;
+    }
+
+    .navbar-brand img{
+        height: 42px;
+        width: 60px;
+        content: url("/img/buddy-logo-white.png");
+    }
+
+
 }
 
 @media screen and (max-width: 768px){
