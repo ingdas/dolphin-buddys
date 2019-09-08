@@ -10,6 +10,7 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 <!-- use either src or link-thumb for thumbnail image -->
 {{- $thumb := .Get "src" | default (printf "%s." (.Get "thumb") | replace (.Get "link") ".") }}
 {{- $external := .Get "external"}}
+{{- $target := .Get "target"}}
 <div class="box{{ with .Get "caption-position" }} fancy-figure caption-position-{{.}}{{end}}{{ with .Get "caption-effect" }} caption-effect-{{.}}{{end}}" {{ with .Get "width" }}style="max-width:{{.}}"{{end}}>
   <figure {{ with .Get "class" }}class="{{.}}"{{ end }} class="{{if $external}}no-photoswipe{{end}}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img"{{ if .Parent }} style="background-image: url('{{ $thumb | relURL }}');"{{ end }}{{ with .Get "size" }} data-size="{{.}}"{{ end }}>
@@ -17,7 +18,7 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
     </div>
 
     {{- if not $external}} {{ with .Get "link" | default (.Get "src") }}<a href="{{. | relURL}}" itemprop="contentUrl"></a>{{ end }} {{end}}
-    {{- if $external}}<a target="_blank" href="{{$external | relURL}}"></a>"{{end}}
+    {{- if $external}}<a {{- if not $target}} target="_blank"{{end}} href="{{$external | relURL}}"></a>"{{end}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
       <figcaption>
         {{- with .Get "title" }}<h4>{{.}}</h4>{{ end }}
