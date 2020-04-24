@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Opleidings on Dolphin Buddys</title>
+    <title>Opleidings on Duikcentrum Dolphin Buddys</title>
     <link>/opleiding/</link>
-    <description>Recent content in Opleidings on Dolphin Buddys</description>
+    <description>Recent content in Opleidings on Duikcentrum Dolphin Buddys</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-BE</language>
     
@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/opleiding/pro/</guid>
-      <description> &#34;  PADI PRO Divemaster
+      <description>                             &#34;  PADI PRO Divemaster
    &#34;  PADI PRO Assistant Instructor
     </description>
     </item>
@@ -27,15 +27,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/opleiding/specialty/</guid>
-      <description>&#34;  PADI Enriched Air Diver
+      <description>&#34;  PADI AWARE Dive Against Debris
    &#34;  PADI Deep Diver
    &#34;  PADI Dry Suit Diver
-   &#34;  PADI Equipment Specialist
-   &#34;  PADI Search and Recovery Diver
-   &#34;  PADI Wreck Diver
-   &#34;  PADI Self Reliant Diver
-   &#34;  PADI Peak Performance Buoyancy
-   &#34;</description>
+   &#34;  PADI Emergency Oxygen Provider
+   &#34;  PADI Enriched Air Diver</description>
     </item>
     
   </channel>

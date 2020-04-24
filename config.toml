@@ -1,11 +1,18 @@
 theme = "hugo-now-ui"
 baseurl = ""
 languageCode = "nl-BE"
-title = "Dolphin Buddys"
+title = "Duikcentrum Dolphin Buddys"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 publishDir = "./docs"
+enableRobotsTXT = true
+
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"

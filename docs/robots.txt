@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://dolphinbuddys.com/sitemap.xml

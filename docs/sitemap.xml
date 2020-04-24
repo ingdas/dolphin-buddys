@@ -1,81 +1,119 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>/ervaringen/activiteiten/</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>/ervaringen/duikclub/</loc>
-  </url>
-  
-  <url>
-    <loc>/ervaringen/beperking/</loc>
-  </url>
-  
-  <url>
-    <loc>/ervaringen/</loc>
-  </url>
-  
-  <url>
-    <loc>/initiaties/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-  </url>
-  
-  <url>
-    <loc>/ervaringen/jeugdwerking/</loc>
-  </url>
-  
-  <url>
-    <loc>/materiaal/</loc>
-  </url>
-  
-  <url>
-    <loc>/milieu/</loc>
-  </url>
-  
-  <url>
-    <loc>/ervaringen/noordzeeduiken/</loc>
-  </url>
-  
-  <url>
-    <loc>/opleidingen/</loc>
-  </url>
-  
-  <url>
-    <loc>/opleiding/</loc>
-  </url>
-  
-  <url>
-    <loc>/overons/</loc>
-  </url>
-  
-  <url>
-    <loc>/opleiding/pro/</loc>
-  </url>
-  
-  <url>
-    <loc>/opleiding/specialty/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>/veiligheid/</loc>
-  </url>
-  
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <url>
+        <loc>https://dolphinbuddys.com/ervaringen/activiteiten/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/categories/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/contact/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/ervaringen/duikclub/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/ervaringen/beperking/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/ervaringen/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/initiaties/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/ervaringen/jeugdwerking/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/materiaal/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/milieu/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/ervaringen/noordzeeduiken/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/opleidingen/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/opleiding/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/overons/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/opleiding/pro/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/opleiding/specialty/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/tags/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://dolphinbuddys.com/veiligheid/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
 </urlset>
