@@ -115,7 +115,7 @@ enableRobotsTXT = true
     pre = '<i class="fa fa-instagram"></i>'
 
 [params]
-    background = "/img/bg11.jpg"
+    background = "/img/header.jpg"
     tint = "orange"
     custom_css = []
     custom_js = []

@@ -5,11 +5,7 @@
     <link>/opleiding/</link>
     <description>Recent content in Opleidings on Duikcentrum Dolphin Buddys</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>nl-BE</language>
-    
-	<atom:link href="/opleiding/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>nl-BE</language><atom:link href="/opleiding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PADI PRO-Opleidingen</title>
       <link>/opleiding/pro/</link>
