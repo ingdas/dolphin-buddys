@@ -68,7 +68,7 @@
 </head>
 
 <body class="profile-page sidebar-collapse">
-<div class="page-header-image" style="background-image: url('./img/header.jpg');">
+<div class="page-header-image" style="background-color: #009283;">
 </div>
     
     <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="0">
@@ -211,137 +211,218 @@
         }
     }
 </script>
-<div class="container">
-<!-- Logo and Slogan -->
-<section id="home" class="section" style="background-color: transparent; color:black;">
+       <style>
+        .header {
+            background: linear-gradient(0deg,rgba(44,44,44,0.2),rgba(63,211,171,0.6)), url(
+                './img/header.jpg'
+            );
+            background-size: cover;
+            height: 60vh;
+            color: white;
+            position: relative;
+        }
 
-    <div class="row" style="margin-top: 4em">
-    <div class="content-block text-center col-md-6">
-        <img src="img/buddy-logo-white.png" class="img-fluid" style="margin-bottom: -100px; margin-top: -60px;">
-        <h1 style="color: white">Ontdekken. Ontmoeten. Ontspannen.</h1>
-    </div>
+        .header-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
 
-    <div class="content-block col-md-6">
-        <div class="card">
-            <div class="card-body">
-        <p>Duikcentrum Dolphin Buddys is een duikschool, duikclub en duikwinkel uit Leuven. Wij geloven dat duiken een unieke beleving is voor iedereen. Daarom geven we heel wat verschillende cursussen, aan een erg uiteenlopend publiek, met een divers team. Je kunt bij ons terecht voor je eerste vinslagen onder water, voor de uitbouw van je carrière in de duikwereld, en voor alles daartussenin. Daarbij is onze twintig jaar ervaring van onschatbare waarde. Bovendien zijn we erkend PADI 5 Star Dive Center: een internationale onderscheiding voor ons duikcentrum en een kwaliteitslabel voor onze opleidingen dat we met trots dragen. We bieden allerhande duikopleidingen, materiaalhuur, persluchtvullingen, initiatieduiken… aan maar vooral: een fantastische ervaring onder en boven water!</p>
-    </div>
-</div>
-    </div>
-</div>
-<div class="row">
-    <div class="content-block  col-md-6">
-    <div class="card" style="margin: 10px">
-    <div class="card-body">
-        Duikcentrum Dolphin Buddys ontstond vanuit duikclub Dolphin Buddys. De duikclub werd in 2003 in het leven geroepen door een klein vriendengroepje dat hun eerste duikstappen had gezet bij Giovanni’s Dolphin Divers. De club groeide gestaag, en zit nu aan zo’n 100 leden: groot genoeg om goed te functioneren, klein genoeg om er regelmatig een gezellige boel van te maken. In de club groeiden Walter, Louise en Lore door tot gepassioneerde duikinstructeurs. In 2018 besloten zij Dolphin Buddys een duwtje in de rug te geven, en zo werd het duikcentrum een feit! Begin 2019 werd Dolphin Buddys erkend als PADI Dive Center. Nog geen jaar later mochten we daar 5 sterren aan toevoegen: sinds eind 2019 zijn we PADI 5 Star Dive Center!
-    </div>
-</div>
-    </div>
+        .header-logo {
+            width: 50vh;
+            margin: -80px;
+        }
+
+        .two-tone-section, .instructor-section {
+            padding: 0px;
+        }
+
+        .two-tone-section .col-md-6 {
+            padding-top: 10px;
+        }
+
+        .video-section {
+            background-color: #0B2027;
+            color: white;
+            padding: 50px 0;
+        }
+
+        .instructor {
+            height: 100%;
+        }
+
+        .instructor img {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .instructor p {
+            max-width: 500px;
+        }
+
+        .partners-section {
+            background-color: #009283;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .partner-logos img {
+            width: 100px;
+            margin: 20px;
+        }
+
+        small {
+            font-variant: all-small-caps;
+            font-weight: bold;
+        }
+    </style>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <img src="/img/buddy-logo-white.png" alt="Diving Club Logo" class="header-logo mb-3">
+            <h1 class="h1">Ontdekken. Ontmoeten. Ontspannen.</h1>
+        </div>
+    </header>
+
+    <!-- Two-Tone Section -->
+    <section class="container-fluid two-tone-section">
+            <div class="row no-gutters">
+                <div class="col-md-6 d-flex align-items-center justify-content-center text-white"  style="background-color: #2E3138">
+                    <div class="text-left p-4" style="max-width: 600px;">
+                        <h2 class="text-center">Dolphin Buddys</h2>
+                        <p>Duikcentrum Dolphin Buddys is een duikschool, duikclub en duikwinkel uit Leuven.
+Wij geloven dat duiken een unieke beleving is voor iedereen. Daarom geven we heel
+wat verschillende cursussen, aan een erg uiteenlopend publiek, met een divers
+team. Je kunt bij ons terecht voor je eerste vinslagen onder water, voor de uitbouw
+van je carrière in de duikwereld, voor je opstart als technisch duiker en voor alles
+daartussenin. Daarbij is onze twintig jaar ervaring van onschatbare waarde.
+Bovendien zijn we erkend PADI 5 Star Dive Center en PADI Tec Rec center:
+internationale onderscheidingen voor ons duikcentrum en een kwaliteitslabel voor
+onze opleidingen dat we met trots dragen. We bieden allerhande duikopleidingen,
+materiaalhuur, persluchtvullingen, initiatieduiken… aan maar vooral: een fantastische
+ervaring onder en boven water!</p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center text-white" style="background-color: #382633">
+                    <div class="text-left p-4" style="max-width: 600px;">
+                        <h2 class="text-center">Over Ons</h2>
+                        <p>Duikcentrum Dolphin Buddys ontstond vanuit duikclub Dolphin Buddys. De duikclub
+werd in 2003 in het leven geroepen door een klein vriendengroepje dat hun eerste
+duikstappen had gezet bij Giovanni’s Dolphin Divers. De club groeide gestaag, en zit
+nu aan zo’n 100 leden: groot genoeg om goed te functioneren, klein genoeg om er
+regelmatig een gezellige boel van te maken. In de club groeiden Walter, Louise en
+Lore door tot gepassioneerde duikinstructeurs. In 2018 besloten zij Dolphin Buddys
+een duwtje in de rug te geven, en zo werd het duikcentrum een feit! Begin 2019 werd
+Dolphin Buddys erkend als PADI Dive Center. Nog geen jaar later mochten we daar
+5 sterren aan toevoegen: sinds eind 2019 zijn we PADI 5 Star Dive Center! In 2023
+werden we bovendien PADI TecRec center, je kan bij ons dus ook terecht voor
+technische duikopleidingen.</p>
+                    </div>
+                </div>
+        </div>
+    </section>
 
     <!-- Video Section -->
-    <div class="content-block text-center  col-md-6">
-        <div class="ratio ratio-16x9" style="height: 100%; width:100%; padding:10px">
-            <iframe src="https://www.youtube.com/embed/doFk6Rzc0rU" title="Binnenkijken in ons duikcentrum" frameborder="0" allowfullscreen style="height:100%; width:100%"></iframe>
-        </div>
-    </div>
-</div>
-<div class="row">
-    <!-- Instructor Bios -->
-    <div class="team col-md-8" style="margin: auto">
-        <div class="card">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="team-player">
-                            <img src="../img/bio/walter.jpg" alt="Walter Etienne"
-                                 class="rounded-circle img-fluid img-raised">
-                            <h4 class="title">Walter Etienne</h4>
-                            <p class="category text-primary">PADI IDC Staff Instructor #978244</p>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <p class="bioText">Walter (°1964) duikt sinds 2001, toen z’n oudste zoon vanuit het niets de
-                            vraag stelde om te gaan duiken. Al snel was de passie erg groot, en zo werd Walter in
-                            2009 instructeur. Hij stond in 2003 mee aan de wieg van duikclub Dolphin Buddys, en is
-                            ook nu nog één van de drie drijvende krachten achter het duikcentrum.
-                            Zijn ingenieursstudies en ervaring met projectmanagement maken hem tot de gedroomde
-                            technische en planmatige kracht in ons duikcentrum. Als hij niet met de technische kant
-                            (vulstation, onderhoud duikmateriaal…) bezig is, geeft Walter ook een deel van de
-                            opleidingen, zowel op het droge als in het water.</p>
-                    </div>
-                </div>
+    <section class="video-section">
+        <div class="container">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://youtube.com/embed/doFk6Rzc0rU" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="team-player">
-                            <img src="../img/bio/louise.jpg" alt="Louise Haaker"
-                                 class="rounded-circle img-fluid img-raised">
-                            <h4 class="title">Louise Haaker</h4>
-                            <p class="category text-primary">PADI IDC Staff Instructor #383123</p>
-                        </div>
-                    </div>
-                    <div class="col-md-8"><p class="bioText">Louise (°1995) werd als 11-jarige wel erg nieuwsgierig
-                        wanneer haar vader en broer wekelijks gingen snorkelen bij een lokale club. Samen namen ze
-                        de stap naar duikclub Dolphin Buddys, twee huizen verder in hun straat, om te leren duiken.
-                        Louise legde een spectaculair parcours af en werd in 2017 instructeur. Als ze niet in het
-                        water zit, vind je Louise voor de klas: ze geeft namelijk les in het buitengewoon onderwijs. Met haar achtergrond in de talen en literatuur, is Louise onze gedroomde
-                        PR-vrouw. Ze ergert zich weleens aan de ‘esthetische’ taalfout in onze naam, maar onderhoudt
-                        toch trouw de website, sociale media en andere schriftelijke communicatie. Toch zit ze nog
-                        steeds het liefst in het water, want daar heeft ze haar hart verloren. </p></div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="team-player">
-                            <img src="../img/bio/lore.jpg" alt="Lore Leemans"
-                                 class="rounded-circle img-fluid img-raised">
-                            <h4 class="title">Lore Leemans</h4>
-                            <p class="category text-primary">PADI Master Scuba Diver Trainer #383142</p>
-                        </div>
-                    </div>
-                    <div class="col-md-8"><p class="bioText">Lore (°1996) startte, toen ze in 2008 begon met duiken,
-                        een ware lawine in haar familie: ondertussen stak ze maar liefst drie andere familieleden
-                        aan met haar fascinatie voor water en de onderwaterwereld! Met haar indrukwekkende
-                        theoretische kennis en haar doortastende praktische aanpak, slaagde onze jongste kracht in
-                        de zomer van 2018 met glans voor haar instructeursexamen. Lore is de draaiende motor van
-                        onze clubwerking: ze zorgt onder andere voor bekwame trainers en redders tijdens de
-                        wekelijkse trainingen, als ze die rol niet zelf invult. Als ze niet aan het werk is als
-                        kinesitherapeut, is Lore ook altijd te strikken
-                        voor een gezellige duikuitstap. </p></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
+    </section>
 
-    <div class="content-block text-center">
-        <h2 class="mb-4" style="color: white;">Onze partners</h2>
-        <div class="row justify-content-center">
-            <div class="col-4 col-md-2 mb-3">
-                <img src="img/partner/partnerlogo.svg" alt="Sponsor 1" class="img-fluid">
+    <!-- Instructors Section -->
+
+    <section class="instructor-section container-fluid">
+        <div class="row no-gutters">
+
+
+            <div class="col-md-4 d-flex text-center align-items-center justify-content-center text-white"  style="background-color: #382633">
+                <div class="instructor  p-4">
+                    <img class="img-raised" src="/img/bio/walter.jpg" alt="Instructor 1">
+                    <h3 style="margin-bottom: 10px;">Walter Etienne<br><small>PADI IDC STAFF INSTRUCTOR #978244</small></h3>
+
+                    <p class="text-left">Walter (°1964) duikt sinds 2001, toen z’n oudste zoon vanuit het niets de vraag
+stelde om te gaan duiken. Al snel was de passie erg groot, en zo werd Walter in
+2009 instructeur. Hij stond in 2003 mee aan de wieg van duikclub Dolphin Buddys,
+en is ook nu nog één van de drie drijvende krachten achter het duikcentrum. Zijn
+ingenieursstudies en ervaring met projectmanagement maken hem tot de
+gedroomde technische en planmatige kracht in ons duikcentrum. Als hij niet met de
+technische kant (vulstation, onderhoud duikmateriaal…) bezig is, geeft Walter ook
+
+een deel van de opleidingen. Zijn uitgebreide ervaring en technische achtergrond
+laten hem toe een extra verdieping aan jouw duikopleiding te geven, zowel op het
+droge als in het water.</p>
+                </div>
             </div>
-            <div class="col-4 col-md-2 mb-3">
-                <img src="img/partner/partnerlogo.svg" alt="Sponsor 2" class="img-fluid">
+            <div class="col-md-4 d-flex text-center align-items-center justify-content-center"  style="background-color: #A33B20">
+                <div class="instructor text-white p-4">
+                    <img class="img-raised" src="/img/bio/louise.jpg" alt="Instructor 2">
+                    <h3 style="margin-bottom: 10px;">Louise Haaker<br><small>PADI IDC STAFF INSTRUCTOR #383123</small></h3>
+                    <p class="text-left">
+Louise (°1995) werd als 11-jarige wel erg nieuwsgierig wanneer haar vader en broer
+wekelijks gingen snorkelen bij een lokale club. Samen namen ze de stap naar
+duikclub Dolphin Buddys, twee huizen verder in hun straat, om te leren duiken.
+Louise werd in 2017 instructeur. In 2023 werd ze bovendien ook technisch
+duikinstructeur. Naast haar ondertussen jarenlange ervaring als duikinstructeur heeft
+ze een stevige basis in het onderwijs: haar lerarenopleiding, specialisatie
+buitengewoon onderwijs en jaren ervaring met lesgeven aan jongvolwassenen met
+een leer- of ontwikkelingsstoornis maken haar een geduldige lesgever met een vaste
+hand. Met haar achtergrond in de talen is Louise bovendien onze gedroomde PR-
+vrouw. Ze ergert zich weleens aan de ‘esthetische’ taalfout in onze naam, maar
+onderhoudt toch trouw de website en sociale mediakanalen. Toch zit ze nog steeds
+het liefst in het water, want daar heeft ze haar hart verloren.</p>
+                </div>
             </div>
-            <div class="col-4 col-md-2 mb-3">
-                <img src="img/partner/partnerlogo.svg" alt="Sponsor 3" class="img-fluid">
-            </div>
-            <div class="col-4 col-md-2 mb-3">
-                <img src="img/partner/partnerlogo.svg" alt="Sponsor 4" class="img-fluid">
-            </div>
-            <div class="col-4 col-md-2 mb-3">
-                <img src="img/partner/partnerlogo.svg" alt="Sponsor 5" class="img-fluid">
+            <div class="col-md-4 d-flex text-center align-items-center justify-content-center"  style="background-color: #2E3138">
+                <div class="instructor text-white p-4">
+                    <img class="img-raised" src="/img/bio/lore.jpg" alt="Instructor 3">
+                    <h3 style="margin-bottom: 10px;">Lore Leemans<br><small>PADI IDC STAFF INSTRUCTOR #383142</small></h3>
+                    <p class="text-left">Lore (°1996) startte, toen ze in 2008 begon met duiken, een ware lawine in haar
+familie: ondertussen stak ze maar liefst drie andere familieleden aan met haar
+fascinatie voor water en de onderwaterwereld! Met haar indrukwekkende
+theoretische kennis en haar doortastende praktische aanpak, slaagde onze jongste
+kracht in de zomer van 2018 met glans voor haar instructeursexamen. Ook zij mocht
+in 2023 de titel van technisch duikinstructeur bij op haar palmares zetten. Lore kan
+met haar geduldige en laagdrempelige aanpak elke duiker doen slagen. Verder is ze
+de draaiende motor van onze clubwerking: ze zorgt onder andere voor bekwame
+trainers en redders tijdens de wekelijkse trainingen. Als ze niet aan het werk is als
+kinesitherapeut, is Lore ook altijd te strikken voor een gezellige duikuitstap.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-</div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-2 col-md-2">
+                    <img src="/img/partner/partnerlogo.svg" alt="Partner 1" class="img-fluid">
+                </div>
+                <div class="col-2 col-md-2">
+                    <img src="/img/partner/partnerlogo.svg" alt="Partner 1" class="img-fluid">
+                </div>
+                <div class="col-2 col-md-2">
+                    <img src="/img/partner/partnerlogo.svg" alt="Partner 1" class="img-fluid">
+                </div>
+                <div class="col-2 col-md-2">
+                    <img src="/img/partner/partnerlogo.svg" alt="Partner 1" class="img-fluid">
+                </div>
+                <div class="col-2 col-md-2">
+                    <img src="/img/partner/partnerlogo.svg" alt="Partner 1" class="img-fluid">
+                </div>
+                <div class="col-2 col-md-2">
+                    <img src="/img/partner/partnerlogo.svg" alt="Partner 1" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
   
