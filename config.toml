@@ -1,5 +1,5 @@
 theme = "hugo-now-ui"
-baseurl = ""
+baseurl = "dolphin-buddys"
 languageCode = "nl-BE"
 title = "Duikcentrum Dolphin Buddys"
 googleAnalytics = ""
