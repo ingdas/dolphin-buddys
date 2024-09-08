@@ -3,115 +3,79 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/ervaringen/activiteiten/</loc>
+        <loc>https://dolphinbuddys.com/categories/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/categories/</loc>
+        <loc>https://dolphinbuddys.com/contact/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/contact/</loc>
+        <loc>https://dolphinbuddys.com/ervaringen/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/ervaringen/duikclub/</loc>
+        <loc>https://dolphinbuddys.com/initiaties/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/ervaringen/beperking/</loc>
+        <loc>https://dolphinbuddys.com/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/ervaringen/</loc>
+        <loc>https://dolphinbuddys.com/materiaal/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/initiaties/</loc>
+        <loc>https://dolphinbuddys.com/milieu/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/</loc>
+        <loc>https://dolphinbuddys.com/opleidingen/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/ervaringen/jeugdwerking/</loc>
+        <loc>https://dolphinbuddys.com/opleiding/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/materiaal/</loc>
+        <loc>https://dolphinbuddys.com/overons/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/milieu/</loc>
+        <loc>https://dolphinbuddys.com/opleiding/pro/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/ervaringen/noordzeeduiken/</loc>
+        <loc>https://dolphinbuddys.com/opleiding/specialty/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/opleidingen/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/opleiding/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/overons/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/opleiding/pro/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/opleiding/specialty/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/tags/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://dolphinbuddys.comdolphin-buddys/veiligheid/</loc>
+        <loc>https://dolphinbuddys.com/tags/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>

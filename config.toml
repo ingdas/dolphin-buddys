@@ -1,5 +1,5 @@
 theme = "hugo-now-ui"
-baseurl = "dolphin-buddys"
+baseurl = ""
 languageCode = "nl-BE"
 title = "Duikcentrum Dolphin Buddys"
 googleAnalytics = ""
@@ -18,91 +18,46 @@ enableRobotsTXT = true
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Duikclub"
-    url = "/ervaringen/duikclub"
-    parent = "Ervaringen"
-    weight = 1
-
-[[menu.main]]
-    name = "Jeugdwerking"
-    url = "/ervaringen/jeugdwerking"
-    parent = "Ervaringen"
+    name = "Education"
+    url = "/Opleidingen/"
     weight = 2
 
-[[menu.main]]
-    name = "Duiken met een beperking"
-    url = "/ervaringen/beperking"
-    parent = "Ervaringen"
-    weight = 3
 
 [[menu.main]]
-    name = "Activiteiten"
-    url = "/ervaringen/activiteiten"
-    parent = "Ervaringen"
-    weight = 4
-
-[[menu.main]]
-    name = "Noordzeeduiken"
-    url = "/ervaringen/noordzeeduiken"
-    parent = "Ervaringen"
-    weight = 5
-
-[[menu.main]]
-    name = "Opleidingen"
-    url = "/opleidingen/"
-    weight = 2
-
-[[menu.main]]
-    name = "Ervaringen"
+    name = "Experience"
     url = "/ervaringen/"
-    weight = 3
+    weight = 2
 
 [[menu.main]]
-    name = "Materiaal"
+    name = "Equipment"
     url = "/materiaal/"
     weight = 4
 
 [[menu.main]]
-    name = "Milieu"
+    name = "Environment"
     url = "/milieu/"
     weight = 5
 
 [[menu.main]]
-    name = "Initiaties"
-    url = "/initiaties/"
-    weight = 6
-
-[[menu.main]]
-    name = "Veiligheid"
-    url = "/veiligheid/"
-    weight = 7
-
-[[menu.main]]
-    name = "Over Ons"
-    url = "/overons/"
-    identifier="overons"
-    weight = 8
-
-[[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 9
+    weight = 6
 
 
 [[menu.main]]
     name = "https://www.facebook.com/dolphinbuddys/"
-    pre = '<i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="bottom" data-content="Like ons op Facebook"></i>'
-    weight = 10
+    pre = '<i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="bottom" data-content="Facebook"></i>'
+    weight = 7
 
 [[menu.main]]
     name = "https://www.instagram.com/dolphin.buddys/"
-    pre = '<i class="fa fa-instagram" data-toggle="tooltip" data-placement="bottom" data-content="Volg ons op Instagram"></i>'
-    weight = 11
+    pre = '<i class="fa fa-instagram" data-toggle="tooltip" data-placement="bottom" data-content="Instagram"></i>'
+    weight = 8
 
 [[menu.main]]
     name = "https://www.padi.com"
     pre = '<div class="padilogo"></div>'
-    weight = 12
+    weight = 9
 
 [[menu.footer]]
     identifier = "facebook"

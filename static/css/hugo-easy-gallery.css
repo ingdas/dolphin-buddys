@@ -121,7 +121,7 @@ figcaption styles
     color: #FFF;
     text-align: center;
     font-size: 75%; /* change this if you want bigger text */
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     opacity: 1;
     cursor: pointer;
 }
