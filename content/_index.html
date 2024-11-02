@@ -29,12 +29,16 @@ layout: landing
     }
 </script>
        <style>
+       body {
+           background: linear-gradient(0deg,rgba(44,44,44,0.2),rgba(63,211,171,0.6)), url(
+           './img/header.jpg'
+           );
+           background-size: cover;
+           background-attachment: fixed;
+       }
+
         .header {
-            background: linear-gradient(0deg,rgba(44,44,44,0.2),rgba(63,211,171,0.6)), url(
-                './img/header.jpg'
-            );
-            background-size: cover;
-            height: 50vh;
+            height: 60vh;
             color: white;
             position: relative;
         }
@@ -62,7 +66,6 @@ layout: landing
         }
 
         .video-section {
-            background-color: #0B2027;
             color: white;
             padding: 50px 0;
         }
@@ -114,9 +117,9 @@ layout: landing
 
     <!-- Two-Tone Section -->
     <section class="container-fluid two-tone-section">
-            <div class="row no-gutters">
-                <div class="col-md-6 d-flex align-items-center justify-content-center text-white"  style="background-color: #2E3138">
-                    <div class="text-left p-4" style="max-width: 600px;">
+            <div class="row justify-content-center  no-gutters">
+                <div class="col-md-3 d-flex align-items-center justify-content-center text-white"  style="">
+                    <div class="text-left p-4" style="max-width: 600px; background-color: #2E3138; border-radius: 25px;">
                         <h2 class="text-center">Dolphin Buddys</h2>
                         <p>Duikcentrum Dolphin Buddys is een duikschool, duikclub en duikwinkel uit Leuven.
 Wij geloven dat duiken een unieke beleving is voor iedereen. Daarom geven we heel
@@ -131,8 +134,13 @@ materiaalhuur, persluchtvullingen, initiatieduiken… aan maar vooral: een fanta
 ervaring onder en boven water!</p>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex align-items-center justify-content-center text-white" style="background-color: #382633">
-                    <div class="text-left p-4" style="max-width: 600px;">
+                <div class="col-md-2 d-flex align-items-center justify-content-center text-white" style="">
+                    <div class="text-left p-4" style="max-width: 600px; background-color: #382633; border-radius: 25px;">
+                        <h2 class="text-center">Leren Duiken, dat doe je hier</h2>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-center justify-content-center text-white" style="">
+                    <div class="text-left p-4" style="max-width: 600px; background-color: #382633; border-radius: 25px;">
                         <h2 class="text-center">Over Ons</h2>
                         <p>Duikcentrum Dolphin Buddys ontstond vanuit duikclub Dolphin Buddys. De duikclub
 werd in 2003 in het leven geroepen door een klein vriendengroepje dat hun eerste
@@ -152,7 +160,7 @@ technische duikopleidingen.</p>
 
     <!-- Video Section -->
     <section class="video-section">
-        <div class="container">
+        <div class="container" style="background-color: #0B2027; padding: 30px; border-radius: 25px">
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://youtube.com/embed/doFk6Rzc0rU" allowfullscreen></iframe>
             </div>
@@ -162,11 +170,9 @@ technische duikopleidingen.</p>
     <!-- Instructors Section -->
 
     <section class="instructor-section container-fluid">
-        <div class="row no-gutters">
-
-
-            <div class="col-md-4 d-flex text-center align-items-center justify-content-center text-white"  style="background-color: #382633">
-                <div class="instructor  p-4">
+        <div class="row justify-content-center no-gutters">
+            <div class="col-md-3 d-flex text-center align-items-center justify-content-center text-white"  >
+                <div class="instructor  p-4" style="background-color: #382633 ; border-radius: 25px;">
                     <img class="img-raised" src="/img/bio/walter.jpg" alt="Instructor 1">
                     <h3 style="margin-bottom: 10px;">Walter Etienne<br><small>PADI IDC STAFF INSTRUCTOR #978244</small></h3>
 
@@ -183,8 +189,8 @@ laten hem toe een extra verdieping aan jouw duikopleiding te geven, zowel op het
 droge als in het water.</p>
                 </div>
             </div>
-            <div class="col-md-4 d-flex text-center align-items-center justify-content-center"  style="background-color: #A33B20">
-                <div class="instructor text-white p-4">
+            <div class="col-md-3 d-flex text-center align-items-center justify-content-center">
+                <div class="instructor text-white p-4" style="background-color: #A33B20 ; border-radius: 25px;">
                     <img class="img-raised" src="/img/bio/louise.jpg" alt="Instructor 2">
                     <h3 style="margin-bottom: 10px;">Louise Haaker<br><small>PADI IDC STAFF INSTRUCTOR #383123</small></h3>
                     <p class="text-left">
@@ -202,8 +208,8 @@ onderhoudt toch trouw de website en sociale mediakanalen. Toch zit ze nog steeds
 het liefst in het water, want daar heeft ze haar hart verloren.</p>
                 </div>
             </div>
-            <div class="col-md-4 d-flex text-center align-items-center justify-content-center"  style="background-color: #2E3138">
-                <div class="instructor text-white p-4">
+            <div class="col-md-3 d-flex text-center align-items-center justify-content-center">
+                <div class="instructor text-white p-4" style="background-color: #2E3138 ; border-radius: 25px;">
                     <img class="img-raised" src="/img/bio/lore.jpg" alt="Instructor 3">
                     <h3 style="margin-bottom: 10px;">Lore Leemans<br><small>PADI IDC STAFF INSTRUCTOR #383142</small></h3>
                     <p class="text-left">Lore (°1996) startte, toen ze in 2008 begon met duiken, een ware lawine in haar
@@ -220,7 +226,7 @@ kinesitherapeut, is Lore ook altijd te strikken voor een gezellige duikuitstap.<
             </div>
         </div>
     </section>
-
+<div style="height: 5vh"></div>
     <!-- Partners Section -->
     <section class="partners-section">
         <div class="container">
