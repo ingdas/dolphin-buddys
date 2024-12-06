@@ -3,109 +3,109 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/opleiding/basis/</loc>
+        <loc>https://dolphinbuddys.com/opleiding/basis/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/categories/</loc>
+        <loc>https://dolphinbuddys.com/categories/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/contact/</loc>
+        <loc>https://dolphinbuddys.com/contact/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/opleidingen/</loc>
+        <loc>https://dolphinbuddys.com/opleidingen/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/onderwaterwereld/</loc>
+        <loc>https://dolphinbuddys.com/onderwaterwereld/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/materiaal/</loc>
+        <loc>https://dolphinbuddys.com/materiaal/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/ervaringen/</loc>
+        <loc>https://dolphinbuddys.com/ervaringen/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/opleiding/initiatie/</loc>
+        <loc>https://dolphinbuddys.com/opleiding/initiatie/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/initiaties/</loc>
+        <loc>https://dolphinbuddys.com/initiaties/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/</loc>
+        <loc>https://dolphinbuddys.com/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/opleiding/opfrissen/</loc>
+        <loc>https://dolphinbuddys.com/opleiding/opfrissen/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/opleiding/</loc>
+        <loc>https://dolphinbuddys.com/opleiding/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/overons/</loc>
+        <loc>https://dolphinbuddys.com/overons/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/opleiding/pro/</loc>
+        <loc>https://dolphinbuddys.com/opleiding/pro/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/opleiding/specialties/</loc>
+        <loc>https://dolphinbuddys.com/opleiding/specialties/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/tags/</loc>
+        <loc>https://dolphinbuddys.com/tags/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/opleiding/tec/</loc>
+        <loc>https://dolphinbuddys.com/opleiding/tec/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://dolphinbuddys.com//localhost:1313/opleiding/vervolg/</loc>
+        <loc>https://dolphinbuddys.com/opleiding/vervolg/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
