@@ -37,24 +37,22 @@ layout: landing
         background-attachment: fixed;
     }
 
-    .header {
-        height: 60vh;
+    .indexHeader {
+        height: 70vh;
+        margin-top: 70px;
         color: white;
-        position: relative;
-    }
-
-    .header-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
     }
 
     .header-logo {
-        width: 50vh;
-        margin-top: 70px;
-        margin-bottom: -150px;
+        max-width: 100vw;
+        height: 100%;
+        max-height: 100vw;
+        margin-bottom: -5vh !important;
     }
 
     .two-tone-section, .instructor-section {
@@ -88,39 +86,27 @@ layout: landing
     .partners-section {
         background-color: #009283;
         color: white;
-        padding: 30px 0;
         text-align: center;
-    }
-
-    .partner-logos img {
-        width: 100px;
-        margin: 20px;
-    }
-
-    .slogan {
-        margin-top: -3rem;
-        margin-bottom: 2rem;
     }
 
     small {
         font-variant: all-small-caps;
         font-weight: bold;
     }
+
 </style>
 <!-- Header Section -->
-<header class="header">
-    <div class="header-content">
+<header class="indexHeader">
         <img src="/img/buddy-logo-white.png" alt="Diving Club Logo" class="header-logo mb-3">
         <h1 class="h1 slogan">Ontdekken. Ontmoeten. Ontspannen.</h1>
-    </div>
 </header>
 
 <!-- Two-Tone Section -->
 <section class="container-fluid two-tone-section">
     <div class="row justify-content-center  no-gutters">
-        <div class="col-md-3 d-flex align-items-center justify-content-center text-white" style="">
-            <div class="text-left p-4" style="max-width: 600px; background-color: #2E3138; border-radius: 25px;">
-<!--                <h2 class="text-center">Dolphin Buddys</h2>-->
+        <div class="col-md-8 d-flex align-items-center justify-content-center text-white" style="">
+            <div class="text-left p-4" style="background-color: #2E3138; border-radius: 25px;">
+                <!--                <h2 class="text-center">Dolphin Buddys</h2>-->
                 <p>Duikcentrum Dolphin Buddys is een duikschool, duikclub en duikwinkel uit Leuven.
                     Wij geloven dat duiken een unieke beleving is voor iedereen. Daarom geven we heel
                     wat verschillende cursussen, aan een erg uiteenlopend publiek, met een divers
@@ -135,10 +121,12 @@ layout: landing
             </div>
         </div>
     </div>
+    <br>
     <div class="row justify-content-center  no-gutters">
-        <div class="col-md-2 d-flex align-items-center justify-content-center text-white" style="">
-            <div class="text-left p-4" style="max-width: 600px; background-color: #382633; border-radius: 25px;">
-                <h2 class="text-center">Leren Duiken, dat doe je hier</h2>
+        <div class="col-md-12 d-flex align-items-center justify-content-center text-white" style="">
+            <div class="text-left p-4" style="background-color: #594610; border-radius: 25px;">
+                <h2 style="margin: 0px" class="text-center">Leren duiken, dat doe je <a href="/opleidingen">hier</a>&nbsp;&nbsp;<img
+                        style="height: 1em" src="img/padi.png"></h2>
             </div>
         </div>
     </div>
@@ -159,7 +147,7 @@ layout: landing
 <section class="instructor-section container-fluid">
     <div class="row justify-content-center no-gutters">
         <div class="col-md-3 d-flex text-center align-items-center justify-content-center text-white">
-            <div class="instructor  p-4" style="background-color: #382633 ; border-radius: 25px;">
+            <div class="instructor  p-4" style="background-color: #4a4a4a ; border-radius: 25px;">
                 <img class="img-raised" src="/img/bio/walter.jpg" alt="Instructor 1">
                 <h3 style="margin-bottom: 10px;">Walter Etienne<br><small>PADI IDC STAFF INSTRUCTOR #978244</small></h3>
 
@@ -175,7 +163,7 @@ layout: landing
             </div>
         </div>
         <div class="col-md-3 d-flex text-center align-items-center justify-content-center">
-            <div class="instructor text-white p-4" style="background-color: #A33B20 ; border-radius: 25px;">
+            <div class="instructor text-white p-4" style="background-color: #393939 ; border-radius: 25px;">
                 <img class="img-raised" src="/img/bio/louise.jpg" alt="Instructor 2">
                 <h3 style="margin-bottom: 10px;">Louise Haaker<br><small>PADI IDC STAFF INSTRUCTOR #383123</small></h3>
                 <p class="text-left">
@@ -192,9 +180,10 @@ layout: landing
             </div>
         </div>
         <div class="col-md-3 d-flex text-center align-items-center justify-content-center">
-            <div class="instructor text-white p-4" style="background-color: #2E3138 ; border-radius: 25px;">
+            <div class="instructor text-white p-4" style="background-color: #484d59 ; border-radius: 25px;">
                 <img class="img-raised" src="/img/bio/lore.jpg" alt="Instructor 3">
-                <h3 style="margin-bottom: 10px;">Lore Leemans<br><small>PADI MASTER SCUBA DIVER TRAINER #383142</small></h3>
+                <h3 style="margin-bottom: 10px;">Lore Leemans<br><small>PADI MASTER SCUBA DIVER TRAINER #383142</small>
+                </h3>
                 <p class="text-left">
                     Lore (°1996) startte, toen ze in 2008 begon met duiken, een ware lawine in haar familie: ondertussen
                     stak ze maar liefst drie andere familieleden aan met haar fascinatie voor water en de
@@ -209,12 +198,12 @@ layout: landing
         </div>
     </div>
 </section>
-
+<br>
 <section class="container-fluid">
     <div class="row justify-content-center  no-gutters">
 
-        <div class="col-md-3 d-flex align-items-center justify-content-center text-white" style="">
-            <div class="text-left p-4" style="max-width: 600px; background-color: #382633; border-radius: 25px;">
+        <div class="col-md-8 d-flex align-items-center justify-content-center text-white" style="">
+            <div class="text-left p-4" style="background-color: #594610; border-radius: 25px;">
                 <h2 class="text-center">Geschiedenis</h2>
                 <p>Duikcentrum Dolphin Buddys ontstond vanuit duikclub Dolphin Buddys. De duikclub werd in 2003 in het
                     leven geroepen door een klein vriendengroepje dat hun eerste duikstappen had gezet bij Giovanni’s
@@ -229,40 +218,44 @@ layout: landing
             </div>
         </div>
     </div>
-</section>
-<div style="height: 5vh"></div>
-<!-- Partners Section -->
-<section class="partners-section">
-        <div class="row justify-content-center">
-            <div class="col-1 col-md-1">
-                <img src="/img/partner/apeks.png" alt="Partner 1" class="img-fluid">
-            </div>
-            <div class="col-1 col-md-1">
-                <img src="/img/partner/aqualung.png" alt="Partner 1" class="img-fluid">
-            </div>
-            <div class="col-1 col-md-1">
-                <img src="/img/partner/aware.jpg" alt="Partner 1" class="img-fluid">
-            </div>
-            <div class="col-1 col-md-1">
-                <img src="/img/partner/dan.jpg" alt="Partner 1" class="img-fluid">
-            </div>
-            <div class="col-1 col-md-1">
-                <img src="/img/partner/divexpo.png" alt="Partner 1" class="img-fluid">
-            </div>
-            <div class="col-1 col-md-1">
-                <img src="/img/partner/fros.png" alt="Partner 1" class="img-fluid">
-            </div>
-            <div class="col-1 col-md-1">
-                <img src="/img/partner/knrm.png" alt="Partner 1" class="img-fluid">
-            </div>
-            <div class="col-1 col-md-1">
-                <img src="/img/partner/polygon_podcast.jpg" alt="Partner 1" class="img-fluid">
-            </div>
-            <div class="col-1 col-md-1">
-                <img src="/img/partner/polygon_seahorse.png" alt="Partner 1" class="img-fluid">
-            </div>
-            <div class="col-1 col-md-1">
-                <img src="/img/partner/sporty.jpg" alt="Partner 1" class="img-fluid">
+    <br>
+    <div class="row justify-content-center  no-gutters">
+        <div class="col-md-4 d-flex align-items-center justify-content-center text-white" style="">
+            <div class="text-left p-4" style="background-color: #393939; border-radius: 25px;">
+                <img src="/img/teamfoto.jpg" alt="History" class="img-fluid">
             </div>
         </div>
+    </div>
+</section>
+<div style="height: 5vh"></div>
+<section class="partners-section">
+    <div class="justify-content-center align-items-center" style="display: flex; flex-wrap: wrap;">
+        <div class="col-1 col-md-1 d-flex align-items-center">
+            <img src="/img/partner/apeks.png" alt="Partner 1" class="img-fluid">
+        </div>
+        <div class="col-1 col-md-1 d-flex align-items-center">
+            <img src="/img/partner/aqualung.png" alt="Partner 1" class="img-fluid">
+        </div>
+        <div class="col-1 col-md-1 d-flex align-items-center">
+            <img src="/img/partner/aware.jpg" alt="Partner 1" class="img-fluid">
+        </div>
+        <div class="col-1 col-md-1 d-flex align-items-center">
+            <img src="/img/partner/dan2.png" alt="Partner 1" class="img-fluid">
+        </div>
+        <div class="col-1 col-md-1 d-flex align-items-center">
+            <img src="/img/partner/divexpo.png" alt="Partner 1" class="img-fluid">
+        </div>
+        <div class="col-1 col-md-1 d-flex align-items-center">
+            <img src="/img/partner/fros3.png" alt="Partner 1" class="img-fluid">
+        </div>
+        <div class="col-1 col-md-1 d-flex align-items-center">
+            <img src="/img/partner/knrm.png" alt="Partner 1" class="img-fluid">
+        </div>
+        <div class="col-1 col-md-1 d-flex align-items-center">
+            <img src="/img/partner/polygon_seahorse.png" alt="Partner 1" class="img-fluid">
+        </div>
+        <div class="col-1 col-md-1 d-flex align-items-center">
+            <img src="/img/partner/sporty3.png" alt="Partner 1" class="img-fluid">
+        </div>
+    </div>
 </section>
