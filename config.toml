@@ -55,9 +55,14 @@ enableRobotsTXT = true
     weight = 8
 
 [[menu.main]]
-    name = "https://www.padi.com"
+name = "https://www.youtube.com/@duikcentrumdolphinbuddys9386"
+pre = '<i class="fa fa-youtube" data-toggle="tooltip" data-placement="bottom" data-content="YouTube"></i>'
+weight = 9
+
+[[menu.main]]
+    name = "https://www.padi.com/dive-center/belgium/duikcentrum-dolphin-buddys/"
     pre = '<div class="padilogo"></div>'
-    weight = 9
+    weight = 10
 
 [[menu.footer]]
     identifier = "facebook"
