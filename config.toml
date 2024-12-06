@@ -35,7 +35,7 @@ enableRobotsTXT = true
 
 [[menu.main]]
     name = "Environment"
-    url = "/milieu/"
+    url = "/onderwaterwereld/"
     weight = 5
 
 [[menu.main]]
