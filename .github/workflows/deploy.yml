@@ -1,91 +1,55 @@
 # .github/workflows/deploy.yml
 
-name: Build and Deploy Hugo Site via FTP
+name: Deploy to dolphinbuddys.com
 
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push events but only for the main branch
   push:
     branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
-  # Build job
   build_deploy:
-    runs-on: ubuntu-latest # Use the latest Ubuntu runner
+    runs-on: ubuntu-latest
     steps:
-      #----------------------------------------------
-      # Checkout Code
-      #----------------------------------------------
       - name: Checkout Repository
-        uses: actions/checkout@v4 # Checks-out your repository under $GITHUB_WORKSPACE
+        uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true
+          fetch-depth: 0
 
-      #----------------------------------------------
-      # Setup Hugo (Extended Version)
-      #----------------------------------------------
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3 # Action to install Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest' # Installs the latest Hugo version
-          extended: true # Use the extended version for SASS/SCSS support
+          hugo-version: 'latest'
+          extended: true
 
-      #----------------------------------------------
-      # Setup Node.js (for PostCSS)
-      #----------------------------------------------
+      # Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # Specify the Node.js version you need
-          cache: 'npm' # Cache npm dependencies
+          node-version: '20'
 
-      #----------------------------------------------
-      # Install PostCSS
-      #----------------------------------------------
-      # Check if package.json exists, if not create one and install dependencies
-      # If it exists, just install dependencies
+      # Keep your original installation logic
       - name: Install PostCSS CLI and Autoprefixer
         run: |
           if [ ! -f package.json ]; then
             echo '{ "name": "hugo-site", "version": "1.0.0" }' > package.json
             npm install --save-dev postcss-cli autoprefixer
           else
-            npm install --save-dev postcss-cli autoprefixer || npm install # Try installing specific packages or run general install if they fail (e.g., already listed)
+            # You might simplify this if package.json will always be missing initially in CI
+            npm install --save-dev postcss-cli autoprefixer || npm install
           fi
+          # Ensure package-lock is generated if missing for subsequent steps, though not strictly needed here
+          npm install
 
-
-      #----------------------------------------------
-      # Build Hugo Site
-      #----------------------------------------------
       - name: Build Site
-        # Run Hugo build, ensuring Node modules are in the PATH
-        # The setup-node action usually handles PATH, but explicitly adding node_modules/.bin can help in some environments
         run: PATH=$(npm bin):$PATH hugo --minify
 
-      #----------------------------------------------
-      # Deploy via FTP
-      #----------------------------------------------
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          # Required: FTP server address
           server: ${{ secrets.FTP_SERVER }}
-          # Required: FTP username
           username: ${{ secrets.FTP_USERNAME }}
-          # Required: FTP password
           password: ${{ secrets.FTP_PASSWORD }}
-          # Optional: Port (default is 21)
-          # port: 21
-          # Optional: Source directory (default is .)
-          # This should be the directory Hugo builds to
-          local-dir: ./public/
-          # Optional: Target directory on the server (default is .)
-          # Change this if you need to deploy to a subdirectory like /public_html/ or /www/
-          # server-dir: ./public_html/
-          # Optional: Set to true to remove files on the server that don't exist locally
-          # Use with caution!
-          # dangerous-clean-slate: true
+          local-dir: ./docs/
+          server-dir: ./public_html/
