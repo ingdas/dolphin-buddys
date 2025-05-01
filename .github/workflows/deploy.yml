@@ -26,13 +26,13 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       #----------------------------------------------
-      # Setup Hugo
+      # Setup Hugo (Extended Version)
       #----------------------------------------------
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3 # Action to install Hugo
         with:
           hugo-version: 'latest' # Installs the latest Hugo version
-          # extended: true # Uncomment if you need the extended version
+          extended: true # <<< Add this line to install the extended version for SASS/SCSS support
 
       #----------------------------------------------
       # Build Hugo Site
