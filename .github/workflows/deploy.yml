@@ -1,0 +1,65 @@
+# .github/workflows/deploy.yml
+
+name: Build and Deploy Hugo Site via FTP
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push events but only for the main branch
+  push:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # Build job
+  build_deploy:
+    runs-on: ubuntu-latest # Use the latest Ubuntu runner
+    steps:
+      #----------------------------------------------
+      # Checkout Code
+      #----------------------------------------------
+      - name: Checkout Repository
+        uses: actions/checkout@v4 # Checks-out your repository under $GITHUB_WORKSPACE
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      #----------------------------------------------
+      # Setup Hugo
+      #----------------------------------------------
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3 # Action to install Hugo
+        with:
+          hugo-version: 'latest' # Installs the latest Hugo version
+          # extended: true # Uncomment if you need the extended version
+
+      #----------------------------------------------
+      # Build Hugo Site
+      #----------------------------------------------
+      - name: Build Site
+        run: hugo --minify # Build the site using Hugo, minify output
+
+      #----------------------------------------------
+      # Deploy via FTP
+      #----------------------------------------------
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # Required: FTP server address
+          server: ${{ secrets.FTP_SERVER }}
+          # Required: FTP username
+          username: ${{ secrets.FTP_USERNAME }}
+          # Required: FTP password
+          password: ${{ secrets.FTP_PASSWORD }}
+          # Optional: Port (default is 21)
+          # port: 21
+          # Optional: Source directory (default is .)
+          # This should be the directory Hugo builds to
+          local-dir: ./public/
+          # Optional: Target directory on the server (default is .)
+          # Change this if you need to deploy to a subdirectory like /public_html/ or /www/
+          # server-dir: ./public_html/
+          # Optional: Set to true to remove files on the server that don't exist locally
+          # Use with caution!
+          # dangerous-clean-slate: true
