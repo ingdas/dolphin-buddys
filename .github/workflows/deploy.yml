@@ -32,13 +32,39 @@ jobs:
         uses: peaceiris/actions-hugo@v3 # Action to install Hugo
         with:
           hugo-version: 'latest' # Installs the latest Hugo version
-          extended: true # <<< Add this line to install the extended version for SASS/SCSS support
+          extended: true # Use the extended version for SASS/SCSS support
+
+      #----------------------------------------------
+      # Setup Node.js (for PostCSS)
+      #----------------------------------------------
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Specify the Node.js version you need
+          cache: 'npm' # Cache npm dependencies
+
+      #----------------------------------------------
+      # Install PostCSS
+      #----------------------------------------------
+      # Check if package.json exists, if not create one and install dependencies
+      # If it exists, just install dependencies
+      - name: Install PostCSS CLI and Autoprefixer
+        run: |
+          if [ ! -f package.json ]; then
+            echo '{ "name": "hugo-site", "version": "1.0.0" }' > package.json
+            npm install --save-dev postcss-cli autoprefixer
+          else
+            npm install --save-dev postcss-cli autoprefixer || npm install # Try installing specific packages or run general install if they fail (e.g., already listed)
+          fi
+
 
       #----------------------------------------------
       # Build Hugo Site
       #----------------------------------------------
       - name: Build Site
-        run: hugo --minify # Build the site using Hugo, minify output
+        # Run Hugo build, ensuring Node modules are in the PATH
+        # The setup-node action usually handles PATH, but explicitly adding node_modules/.bin can help in some environments
+        run: PATH=$(npm bin):$PATH hugo --minify
 
       #----------------------------------------------
       # Deploy via FTP
