@@ -1,8 +1,13 @@
 {{ define "title" }}
+<style>
+  .page-header .title { font-size: clamp(2rem, 6vw, 4rem); margin-bottom: 0.5em; margin-top: 1em}
+  .page-header .description { color: white; margin-top: 1em; margin-bottom: 1em}
+  .page-header-image { margin-bottom: 1em}
+ </style>
 <div class="container">
   <div class="content-center">
     <h1 class="title">{{ .Title }}</h1>
-    <div style="text-align: left">
+    <div class="text-left description">
       {{with .Params.description }} {{ . | safeHTML }} {{ end }}
     </div>
   </div>
